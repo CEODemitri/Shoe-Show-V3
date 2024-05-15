@@ -4,6 +4,23 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
+      {/* <nav class="bg-[#DCE2F9] flex justify-between items-center px-5 border col-span-12">
+          <a href="/" class="flex justify-center items-center">
+            <img src="logo/logo.png" class="w-14"/>
+            <span class="title text-[#232230]">
+              SHOE SHOW
+            </span>
+          </a>
+
+          <section class="flex gap-5">
+            <ul class="flex gap-5">
+              <li>Calendar</li>
+              <li>Charity</li>
+              <li>Contact</li>
+            </ul>
+            <a href="#" class="bg-[#F9C80E] px-6 py-1 rounded-md text-[#2C2B3C] title drop-shadow-sm">Stories</a>
+          <section>
+      </nav> */}
       <div className="w-screen h-screen md:grid md:grid-cols-12 md:grid-rows-10 gap-3 py-2 overflow-hidden">
         <article className="sm:col-span-6 sm:row-start-1 sm:row-span-10 border min-h-[300px] min-w-[50%] bg-[#EEF1FC] rounded-md">
           <div className="h-[100%] flex flex-col justify-between">
@@ -34,8 +51,8 @@ export default function Home() {
                 <Image
                   src="/hero_imgs/string_6s.jpeg"
                   alt="Hero"
-                  layout="fill"
-                  objectFit="cover"
+                  width={250}
+                  height={250}
                 />
               </section>
             </article>
