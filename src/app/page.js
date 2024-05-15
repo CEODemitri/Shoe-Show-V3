@@ -1,112 +1,209 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <main>
+      <div className="w-screen h-screen md:grid md:grid-cols-12 md:grid-rows-10 gap-3 py-2 overflow-hidden">
+        <article className="sm:col-span-6 sm:row-start-1 sm:row-span-10 border min-h-[300px] min-w-[50%] bg-[#EEF1FC] rounded-md">
+          <div className="h-[100%] flex flex-col justify-between">
+            <article className="py-10 px-5 ">
+              <span className="block text-sm text-neutral-600 subtext">
+                Gifted Wheels
+              </span>
+              <h1 className="text-4xl lg:text-4xl mt-3 font-semibold text-[#2C2B3C]">
+                Hard to reach{" "}
+                <span className="text-white bg-red-300 px-2">Soles</span>.<br />
+                See our Collection<span className="text-red-300 px-2">.</span>
+              </h1>
+            </article>
+
+            <article className="flex flex-col gap-10">
+              <section className="flex justify-between py-5 px-5">
+                <Link href="/collections">
+                  <p className="bg-[#B76D68] border-t-4 h-fit py-3 px-8 text-white text-xl hover:bg-neutral-400 drop-shadow-md rounded-md">
+                    Browse
+                  </p>
+                </Link>
+                <h2 className="relative text-3xl text-neutral-500 bottom-5 w-[15ch] subtext">
+                  - Rare sneakers added every month. Do better.
+                </h2>
+              </section>
+
+              <section>
+                <Image
+                  src="/hero_imgs/string_6s.jpeg"
+                  alt="Hero"
+                  layout="fill"
+                  objectFit="cover"
+                />
+              </section>
+            </article>
+          </div>
+        </article>
+
+        <article className="sm:col-span-6 sm:col-start-7 sm:row-start-1 sm:row-span-5 min-h-content relative rounded-md">
+          <div
+            className="absolute inset-0 bg-cover bg-center opacity-65 hover:opacity-80 rounded-md"
+            style={{ backgroundImage: `url('/hero_imgs/showroom_3s.jpeg')` }}
+          ></div>
+          <section className="h-full flex items-end py-3 md:px-2">
+            <p className="sm:text-2xl lg:text-4xl drop-shadow-md text-[#232230] ml-5">
+              Stay current with our exclusive, dynamic calendar.
+            </p>
+            <button className="bg-[#dce2f9] rounded-full left-[90%] p-1 shadow-lg">
+              <svg
+                width="35"
+                height="35"
+                viewBox="0 0 45 45"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <mask
+                  id="mask0_83_37"
+                  maskUnits="userSpaceOnUse"
+                  x="0"
+                  y="0"
+                  width="45"
+                  height="45"
+                >
+                  <rect
+                    x="0.984863"
+                    y="0.349304"
+                    width="44"
+                    height="44"
+                    fill="#D9D9D9"
+                  />
+                </mask>
+                <g mask="url(#mask0_83_37)">
+                  <path
+                    d="M12.7182 33.3493L10.1515 30.7826L27.7515 13.1826H11.9848V9.51593H33.9848V31.5159H30.3182V15.7493L12.7182 33.3493Z"
+                    fill="#8599ea"
+                  />
+                </g>
+              </svg>
+            </button>
+          </section>
+        </article>
+
+        <article className="sm:col-span-3 sm:col-start-7 sm:row-start-6 sm:row-span-5 min-h-[100px] bg-[#B76D68] rounded-md">
+          <section className="py-10 px-5 flex justify-between">
+            <span className="block text-sm text-neutral-200 subtext">
+              Look Easy
+            </span>
+            <button className="bg-[#DCE2F9] rounded-full p-1 shadow-lg btn-primary">
+              <svg
+                width="25"
+                height="25"
+                viewBox="0 0 45 45"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <mask
+                  id="mask0_83_37"
+                  maskUnits="userSpaceOnUse"
+                  x="0"
+                  y="0"
+                  width="45"
+                  height="45"
+                >
+                  <rect
+                    x="0.984863"
+                    y="0.349304"
+                    width="44"
+                    height="44"
+                    fill="#DCE2F9"
+                  />
+                </mask>
+                <g mask="url(#mask0_83_37)">
+                  <path
+                    d="M12.7182 33.3493L10.1515 30.7826L27.7515 13.1826H11.9848V9.51593H33.9848V31.5159H30.3182V15.7493L12.7182 33.3493Z"
+                    fill="#8599ea"
+                  />
+                </g>
+              </svg>
+            </button>
+          </section>
+          <h2 className="text-neutral-200 text-4xl pl-5 mt-[75%] lg:mt-[50%] text-wrap">
+            Accesories
+          </h2>
+        </article>
+
+        <article className="sm:col-span-3 sm:col-start-10 sm:row-start-6 sm:row-span-3 min-h-[100px] bg-[#EEF1FC] py-10 px-5 special">
+          <span className="block text-sm text-neutral-400 subtext">
+            Need for Speed
+          </span>
+          <h2 className="text-[#727099] text-4xl mt-[20%]">Socks</h2>
+          <svg
+            width="25"
+            height="25"
+            viewBox="0 0 45 45"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="ml-[90%]"
           >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+            <mask
+              id="mask0_83_37"
+              maskUnits="userSpaceOnUse"
+              x="0"
+              y="0"
+              width="45"
+              height="45"
+            >
+              <rect
+                x="0.984863"
+                y="0.349304"
+                width="44"
+                height="44"
+                fill="#D9D9D9"
+              />
+            </mask>
+            <g mask="url(#mask0_83_37)">
+              <path
+                d="M12.7182 33.3493L10.1515 30.7826L27.7515 13.1826H11.9848V9.51593H33.9848V31.5159H30.3182V15.7493L12.7182 33.3493Z"
+                fill="#8599ea"
+              />
+            </g>
+          </svg>
+        </article>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+        <article className="sm:col-span-3 sm:col-start-10 sm:row-start-9 sm:row-span-2 min-h-[100px] bg-[#DCE3F9] pt-4 px-5 rounded-md">
+          <span className="block text-sm text-neutral-400 subtext">
+            Bigger Hearts
+          </span>
+          <h2 className="text-[#727099] text-4xl mt-[8%]">About Us</h2>
+          <svg
+            width="25"
+            height="25"
+            viewBox="0 0 45 45"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="ml-[90%]"
+          >
+            <mask
+              id="mask0_83_37"
+              maskUnits="userSpaceOnUse"
+              x="0"
+              y="0"
+              width="45"
+              height="45"
+            >
+              <rect
+                x="0.984863"
+                y="0.349304"
+                width="44"
+                height="44"
+                fill="#D9D9D9"
+              />
+            </mask>
+            <g mask="url(#mask0_83_37)">
+              <path
+                d="M12.7182 33.3493L10.1515 30.7826L27.7515 13.1826H11.9848V9.51593H33.9848V31.5159H30.3182V15.7493L12.7182 33.3493Z"
+                fill="#8599ea"
+              />
+            </g>
+          </svg>
+        </article>
       </div>
     </main>
   );
