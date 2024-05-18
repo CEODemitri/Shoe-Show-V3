@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      <div className="w-screen h-screen md:grid md:grid-cols-12 md:grid-rows-10 gap-3 py-2 overflow-hidden">
+      <div className="w-screen h-screen md:grid md:grid-cols-12 md:grid-rows-10 gap-3 py-2">
         <article className="sm:col-span-6 sm:row-start-1 sm:row-span-10 border min-h-[300px] bg-[#EEF1FC] rounded-md">
           <div className="h-[100%] flex flex-col justify-between">
             <article className="py-10 px-5 ">
