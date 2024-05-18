@@ -16,7 +16,7 @@ export default function NavBar() {
         </a>
 
         <section className="flex gap-5">
-          <ul className="flex gap-5">
+          <ul className="hidden sm:flex gap-5">
             <li>Calendar</li>
             <li>Charity</li>
             <li>Contact</li>
