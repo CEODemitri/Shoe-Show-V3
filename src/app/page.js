@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       <div className="w-screen h-screen md:grid md:grid-cols-12 md:grid-rows-10 gap-3 py-2 overflow-hidden">
-        <article className="sm:col-span-6 sm:row-start-1 sm:row-span-10 border min-h-[300px] min-w-[50%] bg-[#EEF1FC] rounded-md">
+        <article className="sm:col-span-6 sm:row-start-1 sm:row-span-10 border min-h-[300px] bg-[#EEF1FC] rounded-md">
           <div className="h-[100%] flex flex-col justify-between">
             <article className="py-10 px-5 ">
               <span className="block text-sm text-neutral-600 subtext">
@@ -18,14 +18,14 @@ export default function Home() {
               </h1>
             </article>
 
-            <article className="flex flex-col gap-10">
-              <section className="flex justify-between py-5 px-5">
-                <Link href="/collections">
+            <article className="flex flex-col gap-4">
+              <section className="flex gap-8 justify-between py-5 px-5">
+                <Link href="/Collections">
                   <p className="bg-[#B76D68] border-t-4 h-fit py-3 px-8 text-white text-xl hover:bg-neutral-400 drop-shadow-md rounded-md">
                     Browse
                   </p>
                 </Link>
-                <h2 className="relative text-3xl text-neutral-500 bottom-5 w-[15ch] subtext">
+                <h2 className="relative md:text-3xl text-neutral-500 bottom-5 w-[15ch] subtext">
                   - Rare sneakers added every month. Do better.
                 </h2>
               </section>
@@ -34,8 +34,8 @@ export default function Home() {
                 <Image
                   src="/hero_imgs/string_6s.jpeg"
                   alt="Hero 6's"
-                  width={250}
-                  height={250}
+                  width={750}
+                  height={550}
                 />
               </section>
             </article>
