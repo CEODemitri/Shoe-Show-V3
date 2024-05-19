@@ -13,7 +13,10 @@ export default function Home() {
               </span>
               <h1 className="text-4xl lg:text-4xl mt-3 font-semibold text-[#2C2B3C]">
                 Hard to reach{" "}
-                <span className="text-white bg-red-300 px-2">Soles</span>.<br />
+                <span className="text-white bg-red-300 px-2 tracking-wide">
+                  Soles
+                </span>
+                .<br />
                 See our Collection<span className="text-red-300 px-2">.</span>
               </h1>
             </article>
@@ -21,13 +24,13 @@ export default function Home() {
             <article className="flex flex-col gap-4">
               <section className="flex gap-8 justify-between py-5 px-5">
                 <Link href="/Collections">
-                  <p className="bg-[#B76D68] border-t-4 h-fit py-3 px-8 text-white text-xl hover:bg-neutral-400 drop-shadow-md rounded-md">
-                    Browse
+                  <p className="bg-[#b83a31] border-t-4 h-fit py-3 px-8 text-white text-xl hover:bg-neutral-400 drop-shadow-md rounded-md">
+                    Release Dates
                   </p>
                 </Link>
-                <h2 className="relative md:text-3xl text-neutral-500 bottom-5 w-[15ch] subtext">
+                <p className="relative md:text-3xl text-neutral-500 bottom-5 w-[15ch] subtext">
                   - Rare sneakers added every month. Do better.
-                </h2>
+                </p>
               </section>
 
               <section>

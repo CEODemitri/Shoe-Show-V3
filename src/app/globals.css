@@ -16,6 +16,10 @@
   }
 } */
 
+h1, h2 {
+  font-family: 'Rammetto One', system-ui;
+}
+
 .special:hover {
   background-image: url('../../public/hero_imgs/socks.jpeg');
   background-size: cover;

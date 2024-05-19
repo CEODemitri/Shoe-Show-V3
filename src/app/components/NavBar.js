@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function NavBar() {
   return (
@@ -17,7 +18,9 @@ export default function NavBar() {
 
         <section className="flex gap-5">
           <ul className="hidden sm:flex gap-5">
-            <li>Calendar</li>
+            <Link href="/Calendar">
+              <li>Calendar</li>
+            </Link>
             <li>Charity</li>
             <li>Contact</li>
           </ul>
