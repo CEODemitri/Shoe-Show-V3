@@ -16,3 +16,15 @@
   }
 } */
 
+.special:hover {
+  background-image: url('../../public/hero_imgs/socks.jpeg');
+  background-size: cover;
+  
+  .subtext {
+    color: antiquewhite;
+  }
+
+  h2 {
+    color: antiquewhite;
+  }
+}

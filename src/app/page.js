@@ -138,7 +138,7 @@ export default function Home() {
             width="25"
             height="25"
             viewBox="0 0 45 45"
-            fill="none"
+            fill="#fff"
             xmlns="http://www.w3.org/2000/svg"
             class="ml-[90%]"
           >
