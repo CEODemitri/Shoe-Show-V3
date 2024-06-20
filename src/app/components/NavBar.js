@@ -16,13 +16,18 @@ export default function NavBar() {
           <span className="title text-[#232230]">SHOE SHOW</span>
         </a>
 
-        <section className="flex gap-5">
+        <section className="flex gap-5 items-center">
+          {/* REFACTOR  */}
           <ul className="hidden sm:flex gap-5">
-            <Link href="/Calendar">
+            <Link href="/Pages/Calendar">
               <li>Calendar</li>
             </Link>
-            <li>Charity</li>
-            <li>Contact</li>
+            <Link href="/Pages/Charity">
+              <li>Charity</li>
+            </Link>
+            <Link href="/Pages/Contact">
+              <li>Contact</li>
+            </Link>
           </ul>
 
           <svg
@@ -32,7 +37,7 @@ export default function NavBar() {
             width="20"
             height="20"
             viewBox="0 0 50 50"
-            className="m-auto sm:hidden"
+            className="m-auto md:hidden"
           >
             <path d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z"></path>
           </svg>
