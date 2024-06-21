@@ -20,6 +20,10 @@ h1, h2 {
   font-family: 'Rammetto One', system-ui;
 }
 
+p {
+  font-family: 'Nunito Variable', sans-serif;
+}
+
 .special:hover {
   background-image: url('../../public/hero_imgs/socks.jpeg');
   background-size: cover;

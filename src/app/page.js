@@ -4,14 +4,14 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      <div className="h-screen md:h-[92vh] grid grid-cols-1 md:grid-cols-12 grid-rows-10 gap-3 m-2">
-        <article className="md:col-span-6 row-span-5 md:row-span-10 border min-h-[1/4] bg-[#EEF1FC] rounded-md">
+      <div className="md:h-[92vh] grid md:grid-cols-12 grid-rows-10 gap-3 my-2 md:my-0 md:m-2">
+        <article className="md:col-span-6 row-span-3 md:row-span-10 border min-h-[1/4] bg-[#EEF1FC] rounded-md">
           <div className="h-[100%] flex flex-col justify-between">
             <article className="py-10 px-5 ">
               <span className="block text-sm text-neutral-600 subtext">
                 Gifted Wheels
               </span>
-              <h1 className="text-3xl lg:text-4xl mt-3 w-[15ch] font-semibold text-[#2C2B3C]">
+              <h1 className="text-3xl lg:text-4xl mt-3 md:w-[15ch] font-semibold text-[#2C2B3C]">
                 Hard to reach{" "}
                 <span className="inline-block text-white bg-red-300 px-2">
                   Soles
@@ -31,8 +31,8 @@ export default function Home() {
                     Release Dates
                   </p>
                 </Link>
-                <p className="sm:text-2xl md:text-3xl text-neutral-500 bottom-5 w-[20ch] subtext">
-                  - Rare sneakers added every month. Do better.
+                <p className="sm:text-2xl md:text-3xl text-neutral-500 bottom-5 w-[20ch]">
+                  - Rare sneakers added every month. All for You.
                 </p>
               </section>
 
@@ -53,11 +53,11 @@ export default function Home() {
             className="absolute inset-0 bg-cover bg-center opacity-65 hover:opacity-80 rounded-md"
             style={{ backgroundImage: `url('/hero_imgs/showroom_3s.jpeg')` }}
           ></div>
-          <section className="h-full flex items-end py-3 md:px-2">
+          <section className="h-full flex justify-around items-end py-3 md:px-2">
             <p className="sm:text-2xl lg:text-4xl drop-shadow-md text-[#232230] ml-5">
-              Stay current with our exclusive, dynamic calendar.
+              As Big As Your Imagination. Come See.
             </p>
-            <button className="bg-[#dce2f9] rounded-full left-[90%] p-1 shadow-lg">
+            <button className="bg-[#111a3e] rounded-full left-[90%] shadow-lg">
               <svg
                 width="35"
                 height="35"
@@ -84,7 +84,7 @@ export default function Home() {
                 <g mask="url(#mask0_83_37)">
                   <path
                     d="M12.7182 33.3493L10.1515 30.7826L27.7515 13.1826H11.9848V9.51593H33.9848V31.5159H30.3182V15.7493L12.7182 33.3493Z"
-                    fill="#8599ea"
+                    fill="#fff"
                   />
                 </g>
               </svg>
@@ -92,7 +92,7 @@ export default function Home() {
           </section>
         </article>
 
-        <article className="md:col-span-3 md:col-start-7 md:row-start-6 md:row-span-5 min-h-[100px] bg-[#B76D68] rounded-md flex flex-col justify-between pt-2  md:pt-0 md:py-10">
+        <article className="md:col-span-3 md:col-start-7 row-span-2 md:row-start-6 md:row-span-5 min-h-[100px] bg-[#B76D68] rounded-md flex flex-col justify-between pt-2 md:pt-0 md:py-10">
           <section className="px-5 flex justify-between">
             <span className="block text-sm text-neutral-200 subtext">
               Look Easy
@@ -135,7 +135,7 @@ export default function Home() {
           </h2>
         </article>
 
-        <article className="md:col-span-3 md:col-start-10 md:row-start-6 md:row-span-3 min-h-[100px] bg-[#EEF1FC] px-5 special flex flex-col justify-between pt-10 pb-5">
+        <article className="md:col-span-3 md:col-start-10 row-span-2 md:row-start-6 md:row-span-3 min-h-[100px] bg-[#EEF1FC] md:px-5 special flex flex-col justify-between px-3 md:pt-10 md:pb-5">
           <section className="flex justify-between">
             <span className="block text-sm text-neutral-400 subtext">
               Need for Speed
@@ -176,7 +176,7 @@ export default function Home() {
           <h2 className="text-[#727099] text-4xl mt-[20%]">Socks</h2>
         </article>
 
-        <article className="md:col-span-3 md:col-start-10 md:row-start-9 row-span-2 min-h-[100px] bg-[#DCE3F9] pt-2 md:pt-4 px-5 rounded-md flex flex-col justify-between md:py-10">
+        <article className="md:col-span-3 md:col-start-10 md:row-start-9 min-h-[100px] bg-[#DCE3F9] pt-2 md:pt-4 px-5 rounded-md flex flex-col justify-between md:py-10">
           <section className="flex justify-between">
             <span className="block text-sm text-neutral-500 subtext">
               Bigger Hearts
