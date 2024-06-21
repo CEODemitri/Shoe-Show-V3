@@ -4,14 +4,14 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      <div className="md:h-[92vh] md:grid md:grid-cols-12 md:grid-rows-10 gap-3 m-2">
-        <article className="col-span-6 row-span-10 border min-h-[300px] bg-[#EEF1FC] rounded-md">
+      <div className="h-screen md:h-[92vh] grid grid-cols-1 md:grid-cols-12 grid-rows-10 gap-3 m-2">
+        <article className="md:col-span-6 row-span-5 md:row-span-10 border min-h-[1/4] bg-[#EEF1FC] rounded-md">
           <div className="h-[100%] flex flex-col justify-between">
             <article className="py-10 px-5 ">
               <span className="block text-sm text-neutral-600 subtext">
                 Gifted Wheels
               </span>
-              <h1 className="text-2xl lg:text-4xl mt-3 w-[15ch] font-semibold text-[#2C2B3C]">
+              <h1 className="text-3xl lg:text-4xl mt-3 w-[15ch] font-semibold text-[#2C2B3C]">
                 Hard to reach{" "}
                 <span className="inline-block text-white bg-red-300 px-2">
                   Soles
@@ -25,13 +25,13 @@ export default function Home() {
             </article>
 
             <article className="flex flex-col gap-4">
-              <section className="flex gap-8 justify-between py-5 px-5">
+              <section className="flex gap-8 justify-between items-center py-5 px-5">
                 <Link href="/Pages/Calendar">
-                  <p className="bg-[hsl(220,78%,46%)] border-t-4 h-12 w-36 text-center text-white md:text-xl hover:bg-neutral-400 drop-shadow-md rounded-md">
+                  <p className="bg-[hsl(220,78%,46%)] border-t-4 py-2 px-4 text-center text-white md:text-xl hover:bg-neutral-400 drop-shadow-md rounded-md">
                     Release Dates
                   </p>
                 </Link>
-                <p className="relative sm:text-2xl md:text-3xl text-neutral-500 bottom-5 w-[20ch] subtext">
+                <p className="sm:text-2xl md:text-3xl text-neutral-500 bottom-5 w-[20ch] subtext">
                   - Rare sneakers added every month. Do better.
                 </p>
               </section>
@@ -48,7 +48,7 @@ export default function Home() {
           </div>
         </article>
 
-        <article className="sm:col-span-6 sm:col-start-7 sm:row-start-1 sm:row-span-5 min-h-content relative rounded-md">
+        <article className="md:col-span-6 md:col-start-7 row-span-2 md:row-span-5 min-h-content relative rounded-md">
           <div
             className="absolute inset-0 bg-cover bg-center opacity-65 hover:opacity-80 rounded-md"
             style={{ backgroundImage: `url('/hero_imgs/showroom_3s.jpeg')` }}
@@ -92,7 +92,7 @@ export default function Home() {
           </section>
         </article>
 
-        <article className="sm:col-span-3 sm:col-start-7 sm:row-start-6 sm:row-span-5 min-h-[100px] bg-[#B76D68] rounded-md flex flex-col justify-between py-10">
+        <article className="md:col-span-3 md:col-start-7 md:row-start-6 md:row-span-5 min-h-[100px] bg-[#B76D68] rounded-md flex flex-col justify-between pt-2  md:pt-0 md:py-10">
           <section className="px-5 flex justify-between">
             <span className="block text-sm text-neutral-200 subtext">
               Look Easy
@@ -135,7 +135,7 @@ export default function Home() {
           </h2>
         </article>
 
-        <article className="sm:col-span-3 sm:col-start-10 sm:row-start-6 sm:row-span-3 min-h-[100px] bg-[#EEF1FC] px-5 special flex flex-col justify-between pt-10 pb-5">
+        <article className="md:col-span-3 md:col-start-10 md:row-start-6 md:row-span-3 min-h-[100px] bg-[#EEF1FC] px-5 special flex flex-col justify-between pt-10 pb-5">
           <section className="flex justify-between">
             <span className="block text-sm text-neutral-400 subtext">
               Need for Speed
@@ -176,7 +176,7 @@ export default function Home() {
           <h2 className="text-[#727099] text-4xl mt-[20%]">Socks</h2>
         </article>
 
-        <article className="sm:col-span-3 sm:col-start-10 sm:row-start-9 sm:row-span-2 min-h-[100px] bg-[#DCE3F9] pt-4 px-5 rounded-md flex flex-col justify-between py-10">
+        <article className="md:col-span-3 md:col-start-10 md:row-start-9 row-span-2 min-h-[100px] bg-[#DCE3F9] pt-2 md:pt-4 px-5 rounded-md flex flex-col justify-between md:py-10">
           <section className="flex justify-between">
             <span className="block text-sm text-neutral-500 subtext">
               Bigger Hearts

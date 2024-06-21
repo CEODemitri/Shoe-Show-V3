@@ -23,6 +23,11 @@ version three after a failed ruby/rails attempt, and one vanilla js.
 
 ---
 
+## Tools
+
+1. NextJS
+2. BunJS
+
 ## Journal As I Commit for Reference
 
 6 19 - Project Home base completed at start.
@@ -37,9 +42,11 @@ Edits:
 1. Navbar Component: map for dry code
 
 NextDay
-0 00 - Finish Todos From Previous and check space
+6 20
+-[] Finish Todos From Previous and check space
 Edits:
 
-1.
+1. Update Tool Listing on README
+2. Sloppy Mobile Responsiveness Update. Slight Enhancement but more kinks to clean.
 
 -[] TODOS:
