@@ -63,6 +63,20 @@ Edits:
 
 ---
 
+6 21 -[x] 4. Refractor Homepage
+Edits:
+
+1. Update home page in reference to DRY architect.
+
+-[] TODOS:
+
+1. Navbar Component: map for dry code (2 Day Layover)
+2. Add Icons
+3. GSAP
+4. Prepare for Links
+
+---
+
 NextDay
 0 00
 -[] Finish Todos From Previous and check space
