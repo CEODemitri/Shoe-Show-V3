@@ -1,35 +1,43 @@
 import Image from "next/image";
 import Link from "next/link";
+import { LiaCalendarWeekSolid } from "react-icons/lia";
 
 export default function Home() {
   return (
     <main>
-      <div className="md:h-[92vh] grid md:grid-cols-12 grid-rows-10 gap-3 my-2 md:my-0 md:m-2">
+      <div className="md:h-[92vh] grid md:grid-cols-12 grid-rows-10 gap-3 my-2 md:my-0 md:m-2 font-mono">
         {/* hero */}
         <article className="md:col-span-6 row-span-3 md:row-span-10 border min-h-[1/4] bg-[#EEF1FC] rounded-md">
-          <div className="flex flex-col justify-between">
+          <div className="h-full flex flex-col justify-between">
             <article className="py-8 px-5 ">
               <span className="block text-sm text-neutral-600 subtext">
                 Gifted Wheels
               </span>
-              <h1 className="text-2xl lg:text-4xl mt-3 md:w-[15ch] font-semibold text-[#2C2B3C]">
-                Hard to reach{" "}
-                <span className="text-white bg-red-300 px-2">Soles</span>.
-              </h1>
-              <h2 className="text-3xl text-[#2C2B3C]">
-                See our Collection
-                <span className="text-red-300 px-1 inline-block">.</span>
-              </h2>
+              <section className="flex flex-col gap-4">
+                <h1 className="text-2xl lg:text-4xl mt-3 md:w-[15ch] font-semibold text-[#2C2B3C]">
+                  Hard to reach{" "}
+                  <span className="text-white bg-red-300 px-2">Soles</span>.
+                </h1>
+                <h2 className="text-2xl md:text-3xl text-[#2C2B3C]">
+                  See our Collection
+                  <span className="text-red-300 px-1 inline-block">.</span>
+                </h2>
+              </section>
             </article>
 
             <article className="flex flex-col gap-4">
               <section className="flex gap-8 justify-between items-center py-5 px-5">
                 <Link href="/Pages/Calendar">
-                  <p className="bg-[hsl(220,78%,46%)] border-t-4 py-2 px-4 text-center text-white md:text-xl hover:bg-neutral-400 drop-shadow-md rounded-md">
-                    Release Dates
+                  <p className="bg-[hsl(220,78%,46%)] border-t-4 py-2 px-4 text-center text-white sm:text-2xl md:text-3xl hover:bg-neutral-400 drop-shadow-md rounded-md flex items-center gap-1">
+                    <span className="">
+                      <LiaCalendarWeekSolid />
+                    </span>
+                    <span className="text-[12px] md:text-[16px]">
+                      Release Dates
+                    </span>
                   </p>
                 </Link>
-                <p className="sm:text-2xl md:text-3xl text-neutral-500 bottom-5 w-[20ch]">
+                <p className=" text-neutral-500 bottom-5 w-[20ch]">
                   - Rare sneakers added every month. All for You.
                 </p>
               </section>
@@ -53,7 +61,7 @@ export default function Home() {
             style={{ backgroundImage: `url('/hero_imgs/showroom_3s.jpeg')` }}
           ></div>
           <section className="h-full flex justify-around items-end py-3 md:px-2">
-            <p className="sm:text-2xl lg:text-4xl drop-shadow-md text-[#232230] md:ml-5">
+            <p className="sm:text-2xl lg:text-3xl drop-shadow-md text-[#232230] md:ml-5">
               As Big As Your Imagination. Come See.
             </p>
             <button className="bg-[#111a3e] rounded-full left-[90%] shadow-lg">
@@ -92,7 +100,7 @@ export default function Home() {
         </article>
 
         {/* accesories */}
-        <article className="md:col-span-3 md:col-start-7 row-span-2 md:row-start-6 md:row-span-5 min-h-[100px] bg-[#B76D68] rounded-md flex flex-col justify-between py-2 md:py-10 px-5">
+        <article className="md:col-span-3 md:col-start-7 row-span-2 md:row-start-6 md:row-span-5 min-h-[100px] bg-[#B76D68] rounded-md flex flex-col justify-between py-2 md:py-8 px-5">
           <section className="flex justify-between">
             <span className="block text-sm text-neutral-200 subtext">
               Look Easy
@@ -134,7 +142,7 @@ export default function Home() {
         </article>
 
         {/* socks */}
-        <article className="md:col-span-3 md:col-start-10 row-span-2 md:row-start-6 md:row-span-3 min-h-[100px] bg-[#EEF1FC] px-5 special flex flex-col justify-between py-4 md:py-10">
+        <article className="md:col-span-3 md:col-start-10 row-span-2 md:row-start-6 md:row-span-3 min-h-[100px] bg-[#EEF1FC] px-5 special flex flex-col justify-between py-4 md:py-8">
           <section className="flex justify-between">
             <span className="block text-sm text-neutral-400 subtext">
               Need for Speed
@@ -176,7 +184,7 @@ export default function Home() {
         </article>
 
         {/* about us */}
-        <article className="md:col-span-3 md:col-start-10 md:row-start-9 min-h-[100px] bg-[#DCE3F9] px-5 rounded-md flex flex-col justify-between py-2 md:py-10">
+        <article className="md:col-span-3 md:col-start-10 md:row-start-9 row-span-2 min-h-[100px] bg-[#DCE3F9] px-5 rounded-md flex flex-col justify-between py-2 md:py-8">
           <section className="flex justify-between">
             <span className="block text-sm text-neutral-500 subtext">
               Bigger Hearts

@@ -2,9 +2,24 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function NavBar() {
+  const links = [
+    {
+      name: "Calendar",
+      to: "/Pages/Calendar",
+    },
+    {
+      name: "Charity",
+      to: "/Pages/Charity",
+    },
+    {
+      name: "Contact",
+      to: "/Pages/Contact",
+    },
+  ];
+
   return (
     <>
-      <nav className="bg-[#DCE2F9] flex justify-between items-center px-5 border col-span-12">
+      <nav className="bg-[#DCE2F9] flex justify-between items-center px-5 border col-span-12 font-mono">
         <a href="/" className="flex justify-center items-center">
           <Image
             src="/logo.png"
@@ -17,18 +32,13 @@ export default function NavBar() {
         </a>
 
         <section className="flex gap-5 items-center">
-          {/* REFACTOR  */}
-          <ul className="hidden sm:flex gap-5">
-            <Link href="/Pages/Calendar">
-              <li>Calendar</li>
-            </Link>
-            <Link href="/Pages/Charity">
-              <li>Charity</li>
-            </Link>
-            <Link href="/Pages/Contact">
-              <li>Contact</li>
-            </Link>
-          </ul>
+          <div className="hidden md:flex gap-8">
+            {links.map((link) => (
+              <Link href={link.to} key={link.id}>
+                {link.name}
+              </Link>
+            ))}
+          </div>
 
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -29,6 +29,8 @@ version three after a failed ruby/rails attempt, and one vanilla js.
 2. BunJS
 3. TailwindCSS
 4. FontSource
+5. GreenSock (GSAP)
+6. React Icons
 
 ## Journal As I Commit for Reference
 
@@ -78,6 +80,25 @@ Edits:
 ---
 
 NextDay
+6 22
+Edits
+
+1. Installed GSAP, React Icons
+2. Navbar Component: map for dry code
+3. Links are already Prepared.
+4. Lazy Button Icon
+5. Fixed Hero Text Structure to match my intent.
+6. HOW TO REMOVE A FONTSOURCE DEP: bun uninstall @fontsource-variable/nunito
+7. Replaced Nunito with generic Mono font.
+
+-[] TODOS:
+
+1. Calendar Page
+2. GSAP Animations to Home
+
+---
+
+NextDay
 0 00
 -[] Finish Todos From Previous and check space
 Edits:
@@ -86,4 +107,4 @@ Edits:
 
 -[] TODOS:
 
-1. Navbar Component: map for dry code (1 Day Layover)
+1. Calendar Page (0 Day Layover)
