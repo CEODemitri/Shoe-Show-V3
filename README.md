@@ -79,7 +79,6 @@ Edits:
 
 ---
 
-NextDay
 6 22
 Edits
 
@@ -94,6 +93,18 @@ Edits
 -[] TODOS:
 
 1. Calendar Page
+2. GSAP Animations to Home
+
+---
+
+6 24
+Edits
+
+1. Fixed some responsiveness concerning small details on the homepage.
+
+-[] TODOS:
+
+1. Calendar Page (2 Day Layover)
 2. GSAP Animations to Home
 
 ---

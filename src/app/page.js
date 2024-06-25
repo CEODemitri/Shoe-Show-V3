@@ -37,7 +37,7 @@ export default function Home() {
                     </span>
                   </p>
                 </Link>
-                <p className=" text-neutral-500 bottom-5 w-[20ch]">
+                <p className=" text-neutral-500 bottom-5 w-[20ch] md:text-xl">
                   - Rare sneakers added every month. All for You.
                 </p>
               </section>
@@ -48,6 +48,7 @@ export default function Home() {
                   alt="Hero 6's"
                   width={750}
                   height={550}
+                  className="w-[100%]"
                 />
               </section>
             </article>
@@ -55,13 +56,13 @@ export default function Home() {
         </article>
 
         {/* blog */}
-        <article className="md:col-span-6 md:col-start-7 row-span-2 md:row-span-5 relative rounded-md">
+        <article className="md:col-span-6 md:col-start-7 row-span-2 md:row-span-5 relative rounded-md py-2 md:py-8 px-5">
           <div
             className="absolute inset-0 bg-cover bg-center opacity-65 hover:opacity-80 rounded-md"
             style={{ backgroundImage: `url('/hero_imgs/showroom_3s.jpeg')` }}
           ></div>
-          <section className="h-full flex justify-around items-end py-3 md:px-2">
-            <p className="sm:text-2xl lg:text-3xl drop-shadow-md text-[#232230] md:ml-5">
+          <section className="h-full flex justify-between items-end">
+            <p className="sm:text-2xl lg:text-3xl drop-shadow-md text-[#232230]">
               As Big As Your Imagination. Come See.
             </p>
             <button className="bg-[#111a3e] rounded-full left-[90%] shadow-lg">
@@ -138,11 +139,13 @@ export default function Home() {
               </svg>
             </button>
           </section>
-          <h2 className="text-neutral-200 text-4xl text-wrap">Accesories</h2>
+          <h2 className="text-neutral-200 text-3xl md:text-2xl lg:text-3xl text-wrap">
+            Accesories
+          </h2>
         </article>
 
         {/* socks */}
-        <article className="md:col-span-3 md:col-start-10 row-span-2 md:row-start-6 md:row-span-3 min-h-[100px] bg-[#EEF1FC] px-5 special flex flex-col justify-between py-4 md:py-8">
+        <article className="md:col-span-3 md:col-start-10 row-span-2 md:row-start-6 md:row-span-3 min-h-[100px] bg-[#EEF1FC] px-5 special flex flex-col justify-between py-4 md:py-8 rounded-md">
           <section className="flex justify-between">
             <span className="block text-sm text-neutral-400 subtext">
               Need for Speed
@@ -222,7 +225,9 @@ export default function Home() {
               </svg>
             </button>
           </section>
-          <h2 className="text-[#727099] text-4xl mt-[8%]">About Us</h2>
+          <h2 className="text-[#727099] text-3xl md:text-2xl lg:text-3xl mt-[8%]">
+            About Us
+          </h2>
         </article>
       </div>
     </main>
