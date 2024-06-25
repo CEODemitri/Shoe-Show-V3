@@ -109,6 +109,18 @@ Edits
 
 ---
 
+6 25
+Edits
+
+1. Construction on the Calendar Page. Added the container for the Articles and Countdown Sections.
+2. New Infocard Component building and use.
+
+-[] TODOs:
+
+1. GSAP Animations to Home
+
+---
+
 NextDay
 0 00
 -[] Finish Todos From Previous and check space
