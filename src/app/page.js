@@ -5,7 +5,7 @@ import { LiaCalendarWeekSolid } from "react-icons/lia";
 export default function Home() {
   return (
     <main>
-      <div className="md:h-[92vh] grid md:grid-cols-12 grid-rows-10 gap-3 my-2 md:my-0 md:m-2 font-mono">
+      <div className="md:h-[92vh] grid md:grid-cols-12 grid-rows-10 gap-3 my-2 md:m-2 font-mono">
         {/* hero */}
         <article className="md:col-span-6 row-span-3 md:row-span-10 border min-h-[1/4] bg-[#EEF1FC] rounded-md">
           <div className="h-full flex flex-col justify-between">
@@ -32,13 +32,12 @@ export default function Home() {
                     <span className="">
                       <LiaCalendarWeekSolid />
                     </span>
-                    <span className="text-[12px] md:text-[16px]">
-                      Release Dates
-                    </span>
+                    <span className="text-[12px] md:text-[16px]">Calendar</span>
                   </p>
                 </Link>
-                <p className=" text-neutral-500 bottom-5 w-[20ch] md:text-xl">
-                  - Rare sneakers added every month. All for You.
+                <p className=" text-neutral-500 bottom-5 w-[25ch] md:text-xl">
+                  - Rare sneakers added every month. All for You. Come to
+                  explore.
                 </p>
               </section>
 
@@ -63,7 +62,7 @@ export default function Home() {
           ></div>
           <section className="h-full flex justify-between items-end">
             <p className="sm:text-2xl lg:text-3xl drop-shadow-md text-[#232230]">
-              As Big As Your Imagination. Come See.
+              Style with the latest blogs to keep you up to speed.
             </p>
             <button className="bg-[#111a3e] rounded-full left-[90%] shadow-lg">
               <svg

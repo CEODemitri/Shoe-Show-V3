@@ -5,17 +5,15 @@ export default function Collections() {
 
   return (
     <main>
-      <div className="my-2 md:my-0 md:m-2 font-mono">
-        <article className="h-96 bg-[#DCE2F9] rounded-b-md flex gap-[75px] py-4">
-          <section className="w-1/2 h-full bg-red-600 py-12">
-            <h2>Articles</h2>
-            <div>
-              <InfoCard />
-              <InfoCard />
-            </div>
-          </section>
-          <section className="w-1/2 h-full bg-green-600"></section>
-        </article>
+      <div className="min-h-[92vh] grid md:grid-cols-12 grid-rows-12 gap-3 m-2 font-mono">
+        {/* hero section */}
+        <div className="md:col-span-12 row-span-5 bg-red-500 rounded-md p-4 flex flex-column md:flex-row">
+          {/* left hero */}
+          <article className="w-full h-1/2 md:w-1/2 md:h-full bg-red-950"></article>
+
+          {/* right hero */}
+          <article className="w-full h-1/2 md:w-1/2 md:h-full bg-red-100"></article>
+        </div>
       </div>
     </main>
   );

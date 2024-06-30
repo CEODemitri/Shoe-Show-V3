@@ -121,6 +121,18 @@ Edits
 
 ---
 
+6 30
+Edits
+
+1. Added margin to all size screens for hero section
+2. Really started Calendar/page.js
+
+-[] TODOs:
+
+1. GSAP Animations to Home
+
+---
+
 NextDay
 0 00
 -[] Finish Todos From Previous and check space
