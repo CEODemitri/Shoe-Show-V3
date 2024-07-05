@@ -1,6 +1,7 @@
-# Silly me
+# Silly Me
 
-version three after a failed ruby/rails attempt, and one vanilla js.
+Version 3 after a failed ruby/rails deploy attempt, and one vanilla js.
+I recreated this site for the third time because I have a vision in my head of what this site could be. My skills are approaching my idea and using this project as a measure of my Full Stack skills.
 
 ## Front End features
 
@@ -18,8 +19,7 @@ version three after a failed ruby/rails attempt, and one vanilla js.
 - [] Database Intergration
 - [] API Intergration
 - [] Performance Monitoring and Anaylytics
-
--[] Authentication
+- [] Authentication
 
 ---
 
@@ -130,6 +130,30 @@ Edits
 -[] TODOs:
 
 1. GSAP Animations to Home
+
+---
+
+7 4
+Edits
+
+1. Quick work to structure the left hero section, 'blog'.
+2. started with the right side 'hyper countdown'
+
+### TODOs:
+
+1. Manage
+
+---
+
+7 5
+Edits
+
+1. Added Countdown timer component and finished hero section base. Now to styling.
+
+### Todos
+
+- [ ] open Finish styling Hero Component
+- [] closed
 
 ---
 

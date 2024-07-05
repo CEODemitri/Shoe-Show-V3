@@ -1,4 +1,5 @@
 import InfoCard from "@/app/components/InfoCard";
+import CountdownTimer from "@/app/components/CountdownTimer";
 import Image from "next/image";
 
 export default function Collections() {
@@ -10,7 +11,7 @@ export default function Collections() {
         {/* hero section */}
         <div className="md:col-span-12 row-span-5 bg-[#EEF1FC] rounded-md p-4 flex flex-col md:flex-row max-w-[1040px">
           {/* left hero */}
-          <article className="w-full h-[350px] md:w-1/2 md:h-full max-w-[600px] m-auto flex flex-col">
+          <article className="w-full h-[350px] md:w-1/2 md:h-full max-w-[600px] m-auto flex flex-col gap-4 ">
             <section className="h-1/3 flex gap-4">
               <Image
                 src="/favicon.ico"
@@ -62,18 +63,25 @@ export default function Collections() {
           {/* right hero */}
           <article className="w-full h-[400px] md:w-1/2 md:h-full bg-red-100 max-w-[600px]">
             <section>
-              <div className="flex justify-center items-center">
-                <img src="/crazy-8s.png" className="w-56 h-60" />
-                <div className="pb-20">
-                  <h1>Crazy Love 8's</h1>
-                  <h2>Retro 8</h2>
+              <div className="flex justify-around items-center">
+                <Image
+                  width={100}
+                  height={100}
+                  src="/crazy-8s.png"
+                  className="w-56 h-60"
+                  alt="crazy eight jordan 8"
+                />
+                <div className="pb-20 pr-16">
+                  <h1 className="text-2xl">Crazy Love 8's</h1>
+                  <h2>Jordan Retro 8</h2>
                   <h3>$260</h3>
+                  <h1>October 4</h1>
                 </div>
               </div>
-              <div></div>
             </section>
-            <section></section>
-            <section></section>
+            <section>
+              <CountdownTimer />
+            </section>
           </article>
         </div>
       </div>
