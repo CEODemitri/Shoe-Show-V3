@@ -160,13 +160,18 @@ Edits
 7 6
 Edits
 
-- [ ] open Finish styling Hero Component
+- [x] Finish styling Hero Component
 
-1.
+1. images and colors added to hero section. enhance the base
+2. banner for calendar page complete
+3. Card component built and working
+4. infocard repurposed and in use.
 
 ### TODO
 
-1.
+1. create variables for colors
+2. make cards only 3 per row for large screen and one per row sm screen
+3. import shoe data from api?
 
 ---
 
