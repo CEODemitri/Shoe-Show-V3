@@ -14,7 +14,7 @@ export default function Collections() {
           <article className="w-full h-[350px] md:w-1/2 md:h-full max-w-[600px] m-auto flex flex-col gap-4 ">
             <section className="h-1/3 flex gap-4">
               <Image
-                src="../../page.js"
+                src="/../page.js"
                 alt="work in progress"
                 className="w-20 h-20"
                 width={0}
@@ -35,7 +35,7 @@ export default function Collections() {
             </section>
             <section className="h-1/3 flex gap-4">
               <Image
-                src="../../page.js"
+                src="/../page.js"
                 alt="work in progress"
                 className="w-20 h-20"
                 width={0}
@@ -61,7 +61,7 @@ export default function Collections() {
           </article>
 
           {/* right hero */}
-          <article className="w-full h-[400px] md:w-1/2 md:h-full bg-red-100 max-w-[600px]">
+          <article className="w-full h-[400px] md:w-1/2 md:h-full bg-red-100 max-w-[600px] rounded-md">
             <section>
               <div className="flex justify-around items-center">
                 <Image

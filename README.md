@@ -5,21 +5,21 @@ I recreated this site for the third time because I have a vision in my head of w
 
 ## Front End features
 
-- [] Responsive Design
-- [] Custom Components
-- [] State Management
-- [] API Intergration
-- [] Animation and Interactivity
-- [] Accessibility
-- [] Performance Optimization
+- [ ] Responsive Design
+- [x] Custom Components
+- [ ] State Management
+- [ ] API Intergration
+- [ ] Animation and Interactivity
+- [ ] Accessibility
+- [ ] Performance Optimization
 
 ## Back End features
 
-- [] Dynamic Content w/ CMS
-- [] Database Intergration
-- [] API Intergration
-- [] Performance Monitoring and Anaylytics
-- [] Authentication
+- [ ] Dynamic Content w/ CMS
+- [ ] Database Intergration
+- [ ] API Intergration
+- [ ] Performance Monitoring and Anaylytics
+- [ ] Authentication
 
 ---
 
@@ -41,7 +41,7 @@ Edits:
 2. Added Blank Pages for Links + Alignment
 3. 1hr Refractoring HomePage: Better Layout, Attempt to fix Leading Copy Line Height, Release Date Button Update, SubSection Title Alignment.
 
--[] TODOS:
+### TODO:
 
 1. Navbar Component: map for dry code
 
@@ -55,7 +55,7 @@ Edits:
 3. Quick Update to Sloppy Monile. Looks good but IM sure the code can be refractored easily. Good starting Point here.
 4. Added a new Font Nunito Variable
 
--[] TODOS:
+### TODO:
 
 1. Navbar Component: map for dry code (1 Day Layover)
 2. Add Icons
@@ -70,7 +70,7 @@ Edits:
 
 1. Update home page in reference to DRY architect.
 
--[] TODOS:
+### TODO:
 
 1. Navbar Component: map for dry code (2 Day Layover)
 2. Add Icons
@@ -90,7 +90,7 @@ Edits
 6. HOW TO REMOVE A FONTSOURCE DEP: bun uninstall @fontsource-variable/nunito
 7. Replaced Nunito with generic Mono font.
 
--[] TODOS:
+### TODO:
 
 1. Calendar Page
 2. GSAP Animations to Home
@@ -102,7 +102,7 @@ Edits
 
 1. Fixed some responsiveness concerning small details on the homepage.
 
--[] TODOS:
+### TODO:
 
 1. Calendar Page (2 Day Layover)
 2. GSAP Animations to Home
@@ -115,7 +115,7 @@ Edits
 1. Construction on the Calendar Page. Added the container for the Articles and Countdown Sections.
 2. New Infocard Component building and use.
 
--[] TODOs:
+### TODO:
 
 1. GSAP Animations to Home
 
@@ -127,7 +127,7 @@ Edits
 1. Added margin to all size screens for hero section
 2. Really started Calendar/page.js
 
--[] TODOs:
+### TODO:
 
 1. GSAP Animations to Home
 
@@ -139,7 +139,7 @@ Edits
 1. Quick work to structure the left hero section, 'blog'.
 2. started with the right side 'hyper countdown'
 
-### TODOs:
+### TODO:
 
 1. Manage
 
@@ -150,20 +150,34 @@ Edits
 
 1. Added Countdown timer component and finished hero section base. Now to styling.
 
-### Todos
+### TODO
 
 - [ ] open Finish styling Hero Component
 - [] closed
 
 ---
 
+7 6
+Edits
+
+- [ ] open Finish styling Hero Component
+
+1.
+
+### TODO
+
+1.
+
+---
+
 NextDay
 0 00
--[] Finish Todos From Previous and check space
+
+-[ ] Finish Todos From Previous and check space
 Edits:
 
 1. Update Tool Listing on README
 
--[] TODOS:
+### TODO:
 
 1. Calendar Page (0 Day Layover)
