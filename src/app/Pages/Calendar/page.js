@@ -76,8 +76,8 @@ export default function Collections() {
         {/* main section */}
         {/* main banner */}
         <div className="bg-[url(/hero_imgs/collage.png)] h-24 flex items-end">
-          <section className="bg-[#EEF1FC]">
-            <h1 className="text-xl md:text-2xl pt-2 pr-2 rounded-tr-md">
+          <section className="bg-[#EEF1FC] px-4">
+            <h1 className="text-xl md:text-2xl pt-2 rounded-tr-md">
               August 2024 - 2025
             </h1>
             <p className="text-sm">Premium Release Calendar</p>
@@ -85,7 +85,7 @@ export default function Collections() {
         </div>
 
         {/* filter banner */}
-        <div className="bg-[#2C2B3C]"></div>
+        <div className="bg-[#2C2B3C20] h-12 rounded-3xl mx-16"></div>
 
         {/* content */}
         <div className="flex gap-10 flex-wrap justify-center p-6">

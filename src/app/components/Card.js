@@ -27,11 +27,3 @@ export default function Card({ title, colors, rarity }) {
     </>
   );
 }
-
-{
-  const shoeExample = {
-    title: "Shoe Name",
-    colors: "Red Yellow Green",
-    rarity: "1 / 100",
-  };
-}
