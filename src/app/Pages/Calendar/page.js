@@ -60,7 +60,7 @@ export default function Collections() {
                   alt="crazy eight jordan 8"
                 />
                 <div className="pb-10 pr-16">
-                  <h1 className="text-2xl">Crazy Love 8's</h1>
+                  <h1 className="text-2xl">Crazy Love 8&apos;s</h1>
                   <h2>Jordan Retro 8</h2>
                   <h3>$260</h3>
                   <h1>October 4</h1>
