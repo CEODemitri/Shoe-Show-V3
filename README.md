@@ -206,10 +206,22 @@ Edits:
 
 ---
 
-7 20
+7 19-20
 Edits:
 
 1. keys beginner level safe
+
+### TODO:
+
+1. Configure image urls
+
+---
+
+7 20
+Edits:
+
+1. bucket images now showing after permission change
+2. ui updates to blogcard and hype release section. Also, Show card update.
 
 ### TODO:
 

@@ -28,7 +28,6 @@ export class Service {
   }
 
   async getReleases(queries = [Query.equal("unreleased", "true")]) {
-    console.log("Queries:", queries);
     try {
       return await this.databases.listDocuments(
         conf.appwriteDatabaseId,

@@ -1,4 +1,4 @@
-import InfoCard from "@/app/components/InfoCard";
+import BlogCard from "@/app/components/BlogCard";
 import CountdownTimer from "@/app/components/CountdownTimer";
 import Image from "next/image";
 import Footer from "@/app/components/Footer";
@@ -17,51 +17,32 @@ export default function Collections() {
         {/* hero section */}
         <div className="mt-3 flex flex-col md:flex-row max-w-[1040px] m-auto">
           {/* left hero */}
-          <article className="w-full h-[350px] md:w-1/2 md:h-full max-w-[600px] m-auto flex flex-col gap-4">
-            <InfoCard />
-            <section className="h-1/3 flex gap-4">
-              <Image
-                src="/blog/otherLine.png"
-                alt="line of antigue jordans"
-                className="w-24 h-24 rounded-md"
-                width={100}
-                height={100}
-              />
-              <div>
-                <h1>Article Title</h1>
-                <div className="flex gap-10 text-[10px]">
-                  <p>Date</p>
-                  <p>Author Name</p>
-                </div>
-                <p className="text-xs mt-1 max-w-72">
-                  Extra words here to describe the article. The words are meant
-                  to only be this long. A snippet for time being. Get acquainted
-                  ...
-                </p>
-              </div>
+          <article className="w-full h-[350px] md:w-1/2 md:h-full max-w-[600px] m-auto flex flex-col gap-4 px-2">
+            <BlogCard />
+            <section className="outline outline-slate-300">
+              <BlogCard />
             </section>
-
             <button className="text-slate-200 px-5 py-2 rounded-md w-2/5 self-center bg-[#2C2B3C]">
               All Blogs
             </button>
           </article>
 
           {/* right hero */}
-          <article className="w-full h-[350px] md:w-1/2 md:h-full bg-red-100 max-w-[600px] rounded-md m-auto">
+          <article className="w-full h-[350px] md:w-1/2 md:h-full bg-red-100 max-w-[600px] rounded-md">
             <section>
-              <div className="flex justify-around items-center">
+              <div className="flex items-center relative">
                 <Image
-                  width={100}
-                  height={100}
+                  width={150}
+                  height={150}
                   src="/crazy-8s.png"
-                  className="w-56 h-60"
+                  className="w-fit h-52 absolute left-56"
                   alt="crazy eight jordan 8"
                 />
-                <div className="pb-10 pr-16">
-                  <h1 className="text-2xl">Crazy Love 8&apos;s</h1>
-                  <h2>Jordan Retro 8</h2>
+                <div className=" bg-[#2C2B3C20] w-60 px-4 h-fit mt-8">
+                  <h1 className="text-xl">Crazy Love 8&apos;s</h1>
+                  <h2 className="text-xs">Jordan Retro 8</h2>
                   <h3>$260</h3>
-                  <h1>October 4</h1>
+                  <h1 className="text-sm rounded-l-sm">October 4</h1>
                 </div>
               </div>
             </section>

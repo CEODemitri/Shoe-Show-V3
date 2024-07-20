@@ -35,7 +35,7 @@ export default function Home() {
                     <span className="text-[12px] md:text-[16px]">Calendar</span>
                   </p>
                 </Link>
-                <p className=" text-neutral-500 bottom-5 w-[25ch] md:text-xl">
+                <p className=" text-neutral-500 bottom-5 w-[25ch] text-md md:text-xl">
                   - Rare sneakers added every month. All for You. Come to
                   explore.
                 </p>

@@ -11,8 +11,8 @@ export default function Card({
 }) {
   return (
     <>
-      <div className="relative w-60 h-[25rem] bg-[#2C2B3C20] shadow-xl rounded-md hover:scale-110 duration-200">
-        <section className="h-3/5">
+      <div className="relative w-60 h-[20rem] bg-[#2C2B3C20] shadow-xl rounded-md hover:scale-110 duration-200">
+        <section className="h-2/5">
           <Image
             src={source}
             width={180}
@@ -21,7 +21,7 @@ export default function Card({
             className="m-auto"
           />
         </section>
-        <section className="h-2/5 bg-gray-500 rounded-b-lg pt-2 pl-3">
+        <section className="h-3/5 bg-gray-500 rounded-b-lg pt-2 pl-3 mt-8 flex flex-col">
           <h1 className="text-xl">{title}</h1>
           <h2 className="text-[8px] mb-4">{colors}</h2>
 
@@ -29,7 +29,7 @@ export default function Card({
             <p>{brand}</p>
             <p>{rarity}</p>
             <p>{date}</p>
-            <h3 className="mt-2 bg-[#2C2B3C] text-[#a4a0de] w-fit px-4 rounded-md">
+            <h3 className="mt-4 bg-[#2C2B3C] text-[#a4a0de] w-fit px-4 rounded-md">
               <span className="text-xl">$</span>
               {price}
             </h3>
