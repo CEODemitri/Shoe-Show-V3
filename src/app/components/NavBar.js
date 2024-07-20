@@ -23,7 +23,7 @@ export default function NavBar() {
         <a href="/" className="flex justify-center items-center">
           <Image
             src="/logo.png"
-            class="w-14"
+            className="w-14"
             alt="Shoe Show Logo"
             width={25}
             height={25}
@@ -34,7 +34,11 @@ export default function NavBar() {
         <section className="flex gap-5 items-center">
           <div className="hidden md:flex gap-8">
             {links.map((link) => (
-              <Link href={link.to} key={link.id}>
+              <Link
+                href={link.to}
+                key={link.id}
+                className="hover:bg-blue-900 hover:text-white hover:px-4 hover:py-1 hover:scale-110 hover:rounded-md duration-200"
+              >
                 {link.name}
               </Link>
             ))}

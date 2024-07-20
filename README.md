@@ -175,6 +175,23 @@ Edits
 
 ---
 
+7 7
+Edits
+
+- [x] Functional Database, still configuring the Front End
+
+1. Long Day wiring the backend Following the Docs First with success.
+2. Adding tips from a Professional, Following Appwrite tutorial https://www.youtube.com/watch?v=ZG0_q4i8ADs&list=PLRAV69dS1uWQos1M1xP6LWN6C-lZvpkmq&index=22
+
+### TODO
+
+1 . Tutorial 21 Repeat or start 22
+
+---
+
+7 8
+Edits:
+
 NextDay
 0 00
 
@@ -186,3 +203,14 @@ Edits:
 ### TODO:
 
 1. Calendar Page (0 Day Layover)
+
+---
+
+7 20
+Edits:
+
+1. keys beginner level safe
+
+### TODO:
+
+1. Configure image urls

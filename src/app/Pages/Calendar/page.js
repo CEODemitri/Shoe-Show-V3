@@ -1,12 +1,10 @@
 import InfoCard from "@/app/components/InfoCard";
 import CountdownTimer from "@/app/components/CountdownTimer";
 import Image from "next/image";
-import Card from "@/app/components/Card";
 import Footer from "@/app/components/Footer";
+import AllReleases from "@/app/components/AllReleases";
 
 export default function Collections() {
-  // const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', Sept]
-
   const homeSac = {
     title: "Sac Mentos",
     colors: "White Laser-Purple",
@@ -85,10 +83,10 @@ export default function Collections() {
         </div>
 
         {/* filter banner */}
-        <div className="bg-[#2C2B3C20] h-12 rounded-3xl mx-16"></div>
+        <div className="bg-[#2C2B3C40] h-8 rounded-3xl w-3/5 m-auto"></div>
 
         {/* content */}
-        <div className="flex gap-10 flex-wrap justify-center p-6">
+        {/* <div className="flex gap-10 flex-wrap justify-center p-6 max-w-[920px] m-auto">
           <Card {...homeSac} />
           <Card />
           <Card />
@@ -98,7 +96,8 @@ export default function Collections() {
           <Card />
           <Card />
           <Card />
-        </div>
+        </div> */}
+        <AllReleases />
 
         <Footer />
       </div>
