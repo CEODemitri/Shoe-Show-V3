@@ -1,6 +1,7 @@
 import conf from "../conf/conf.js";
 import { Client, Databases, Storage, Query } from "appwrite";
 
+export const dynamic = "force-dynamic";
 export class Service {
   client = new Client();
   databases;
