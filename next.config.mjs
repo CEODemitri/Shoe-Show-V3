@@ -3,6 +3,7 @@ const nextConfig = {
   images: {
     domains: ["cloud.appwrite.io"],
   },
+
   async headers() {
     return [
       {
