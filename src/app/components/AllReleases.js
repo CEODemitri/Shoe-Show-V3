@@ -4,7 +4,7 @@ import service from "../../appwrite/config.js";
 import { useEffect, useState } from "react";
 import Card from "./Card";
 
-export const revalidate = 1;
+export const revalidate = 0;
 export default function AllReleases() {
   const [unreleased, setUnreleased] = useState([]);
 
@@ -24,7 +24,7 @@ export default function AllReleases() {
 
   return (
     <>
-      <div className="flex gap-10 flex-wrap justify-center p-6 max-w-[920px] m-auto">
+      <div className="flex gap-10 flex-wrap justify-center p-6 max-w-[920px] m-auto h-fit">
         {unreleased.map((date) => (
           <div key={date.$id}>
             <Card {...date} />

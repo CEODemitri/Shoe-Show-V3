@@ -4,6 +4,7 @@ import Image from "next/image";
 import Footer from "@/app/components/Footer";
 import AllReleases from "@/app/components/AllReleases";
 
+export const revalidate = 0;
 export default function Collections() {
   const homeSac = {
     title: "Sac Mentos",

@@ -11,7 +11,7 @@ export default function Card({
 }) {
   return (
     <>
-      <div className="relative w-60 h-[20rem] bg-[#2C2B3C20] shadow-xl rounded-md hover:scale-110 duration-200">
+      <div className="relative w-60 h-[20rem] bg-[#2C2B3C20] shadow-xl rounded-md hover:scale-110 hover:my-4 duration-200">
         <section className="h-2/5">
           <Image
             src={source}
