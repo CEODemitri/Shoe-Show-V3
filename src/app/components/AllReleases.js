@@ -4,7 +4,6 @@ import service from "../../appwrite/config.js";
 import { useEffect, useState } from "react";
 import Card from "./Card";
 
-export const revalidate = 0;
 export default function AllReleases() {
   const [unreleased, setUnreleased] = useState([]);
 

@@ -4,7 +4,6 @@ import Image from "next/image";
 import Footer from "@/app/components/Footer";
 import AllReleases from "@/app/components/AllReleases";
 
-export const revalidate = 0;
 export default function Collections() {
   const homeSac = {
     title: "Sac Mentos",
@@ -16,14 +15,16 @@ export default function Collections() {
     <main>
       <div className="min-h-[92vh] flex flex-col gap-3 m-2 font-mono text-[#2C2B3C] bg-[#EEF1FC] rounded-md">
         {/* hero section */}
-        <div className="mt-3 flex flex-col md:flex-row max-w-[1040px] m-auto">
+        <div className="mt-3 flex flex-col md:flex-row max-w-[1040px] m-auto gap-8 items-center">
           {/* left hero */}
           <article className="w-full h-[350px] md:w-1/2 md:h-full max-w-[600px] m-auto flex flex-col gap-4 px-2">
-            <BlogCard />
-            <section className="outline outline-slate-300">
+            <section className=" p-4">
               <BlogCard />
             </section>
-            <button className="text-slate-200 px-5 py-2 rounded-md w-2/5 self-center bg-[#2C2B3C]">
+            <section className="outline outline-slate-300 rounded-sm p-4">
+              <BlogCard />
+            </section>
+            <button className="text-slate-200 px-5 py-2 rounded-md w-2/5 self-center bg-[#2C2B3C] hover:bg-[#2c2b3c80]">
               All Blogs
             </button>
           </article>
@@ -36,7 +37,7 @@ export default function Collections() {
                   width={150}
                   height={150}
                   src="/crazy-8s.png"
-                  className="w-fit h-52 absolute left-56"
+                  className="w-fit h-60 absolute left-60"
                   alt="crazy eight jordan 8"
                 />
                 <div className=" bg-[#2C2B3C20] w-60 px-4 h-fit mt-8">
