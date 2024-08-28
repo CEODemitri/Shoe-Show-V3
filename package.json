@@ -10,12 +10,12 @@
   },
   "dependencies": {
     "@fontsource/rammetto-one": "^5.0.20",
-    "appwrite": "^15.0.0",
     "gsap": "^3.12.5",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^5.2.1"
+    "react-icons": "^5.2.1",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "postcss": "^8",

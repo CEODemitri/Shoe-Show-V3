@@ -2,7 +2,7 @@ import BlogCard from "@/app/components/BlogCard";
 import CountdownTimer from "@/app/components/CountdownTimer";
 import Image from "next/image";
 import Footer from "@/app/components/Footer";
-import AllReleases from "@/app/components/AllReleases";
+import ShoeList from "@/app/components/ShoeList";
 
 export default function Collections() {
   const homeSac = {
@@ -80,8 +80,7 @@ export default function Collections() {
           <Card />
           <Card />
         </div> */}
-        <AllReleases />
-
+        <ShoeList />
         <Footer />
       </div>
     </main>
