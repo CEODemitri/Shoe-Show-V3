@@ -12,7 +12,7 @@ const ShoeList = () => {
   useEffect(() => {
     const fetchShoes = async () => {
       try {
-        const response = await fetch("/shoes");
+        const response = await fetch("/api/shoes");
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
