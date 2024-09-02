@@ -18,19 +18,19 @@ export default function Card({
             width={180}
             height={180}
             alt={title}
-            className="m-auto"
+            className="m-auto hover:animate-bounce"
           />
         </section>
-        <section className="h-3/5 bg-gray-500 rounded-b-lg pt-2 pl-3 mt-8 flex flex-col">
+        <section className="h-3/5 rounded-b-lg pt-2 pl-3 mt-8 flex flex-col">
           <h1 className="text-xl">{title}</h1>
           <h2 className="text-[8px] mb-4">{colors}</h2>
 
           <div className="text-xs">
-            <p>{brand}</p>
             <p>{rarity}</p>
-            <p>{date}</p>
-            <h3 className="mt-4 bg-[#2C2B3C] text-[#a4a0de] w-fit px-4 rounded-md">
-              <span className="text-xl">$</span>
+            <p>{brand}</p>
+            <p className="font-bold">{date}</p>
+            <h3 className="mt-4 bg-[#2C2B3C] text-[#a4a0de] text-xl w-fit px-4 rounded-md">
+              <span className="text-sm">$</span>
               {price}
             </h3>
           </div>

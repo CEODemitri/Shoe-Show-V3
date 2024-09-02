@@ -1,55 +1,33 @@
-// components/ShoeList.js
 "use client";
 
-import { useEffect, useState } from "react";
-import { Image } from "next/image";
+import React, { useEffect, useState } from "react";
+import Card from "./Card";
 
 const ShoeList = () => {
   const [shoes, setShoes] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
 
   useEffect(() => {
-    const fetchShoes = async () => {
-      try {
-        const response = await fetch("/api/shoes");
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        const data = await response.json();
-        setShoes(data);
-      } catch (error) {
-        setError(error.message);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchShoes();
+    fetch("../src/app/data.json")
+      .then((response) => response.json())
+      .then((data) => setShoes(data))
+      .catch((error) => console.error("Error fetching data:", error));
   }, []);
-
-  if (loading) {
-    return <p>Loading...</p>;
-  }
-
-  if (error) {
-    return <p>Error: {error}</p>;
-  }
 
   return (
     <div>
-      <h1>Shoe List</h1>
-      <ul>
-        {shoes.map((shoe) => (
-          <li key={shoe.id}>
-            <h2>{shoe.name}</h2>
-            <p>Price: ${shoe.price}</p>
-            <p>Description: {shoe.description}</p>
-            {shoe.imageUrl && <Image src={shoe.imageUrl} alt={shoe.name} />}
-            <p>Brand: {shoe.brand}</p>
-          </li>
-        ))}
-      </ul>
+      {shoes.map((shoe) => (
+        <div key={shoe.id}>
+          <Card
+            source={shoe.source}
+            title={shoe.title}
+            price={shoe.price}
+            brand={shoe.brand}
+            colors={shoe.colors}
+            rarity={shoe.rarity}
+            date={shoe.date}
+          />
+        </div>
+      ))}
     </div>
   );
 };

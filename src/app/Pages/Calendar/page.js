@@ -2,6 +2,7 @@ import BlogCard from "@/app/components/BlogCard";
 import CountdownTimer from "@/app/components/CountdownTimer";
 import Image from "next/image";
 import Footer from "@/app/components/Footer";
+import Card from "@/app/components/Card";
 import ShoeList from "@/app/components/ShoeList";
 
 export default function Collections() {
@@ -9,11 +10,15 @@ export default function Collections() {
     title: "Sac Mentos",
     colors: "White Laser-Purple",
     rarity: "1 / 400",
+    brand: "Nike",
+    date: "2023-01-01",
+    price: 150,
+    source: "/release/sacremento3home.png",
   };
 
   return (
     <main>
-      <div className="min-h-[92vh] flex flex-col gap-3 m-2 font-mono text-[#2C2B3C] bg-[#EEF1FC] rounded-md">
+      <div className="min-h-[92vh] flex flex-col gap-3 m-2 font-mono text-[#2c2b3b] bg-[#EEF1FC] rounded-md">
         {/* hero section */}
         <div className="mt-3 flex flex-col md:flex-row max-w-[1040px] m-auto gap-8 items-center">
           {/* left hero */}
@@ -69,8 +74,8 @@ export default function Collections() {
         <div className="bg-[#2C2B3C40] h-8 rounded-3xl w-3/5 m-auto"></div>
 
         {/* content */}
-        {/* <div className="flex gap-10 flex-wrap justify-center p-6 max-w-[920px] m-auto">
-          <Card {...homeSac} />
+        <div className="flex gap-10 flex-wrap justify-center p-6 max-w-[920px] m-auto">
+          <ShoeList />
           <Card />
           <Card />
           <Card />
@@ -79,8 +84,7 @@ export default function Collections() {
           <Card />
           <Card />
           <Card />
-        </div> */}
-        <ShoeList />
+        </div>
         <Footer />
       </div>
     </main>
