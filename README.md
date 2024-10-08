@@ -226,3 +226,10 @@ Edits:
 ### TODO:
 
 1. Configure image urls
+
+---
+
+10 07
+Edits:
+
+Sorry attempt to update the cards for the calendar page. Will be complete next session.

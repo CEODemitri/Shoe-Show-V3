@@ -76,14 +76,6 @@ export default function Collections() {
         {/* content */}
         <div className="flex gap-10 flex-wrap justify-center p-6 max-w-[920px] m-auto">
           <ShoeList />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
         </div>
         <Footer />
       </div>

@@ -7,7 +7,7 @@ const ShoeList = () => {
   const [shoes, setShoes] = useState([]);
 
   useEffect(() => {
-    fetch("../src/app/data.json")
+    fetch("/src/app/data.json")
       .then((response) => response.json())
       .then((data) => setShoes(data))
       .catch((error) => console.error("Error fetching data:", error));
