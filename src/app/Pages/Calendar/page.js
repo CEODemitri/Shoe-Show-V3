@@ -3,7 +3,6 @@ import CountdownTimer from "@/app/components/CountdownTimer";
 import Image from "next/image";
 import Footer from "@/app/components/Footer";
 import Card from "@/app/components/Card";
-import ShoeList from "@/app/components/ShoeList";
 
 export default function Collections() {
   const homeSac = {
@@ -11,9 +10,49 @@ export default function Collections() {
     colors: "White Laser-Purple",
     rarity: "1 / 400",
     brand: "Nike",
-    date: "2023-01-01",
-    price: 150,
+    date: "2025-01-01",
+    price: 1500,
     source: "/release/sacremento3home.png",
+  };
+
+  const bobcathome = {
+    title: "Bobcats",
+    colors: "White Orange Navy",
+    rarity: "1 / 6000",
+    brand: "Nike",
+    date: "2025-01-01",
+    price: 450,
+    source: "/release/bobcat3home.png",
+  };
+
+  const deepblack = {
+    title: "Deep Black",
+    colors: "White Black",
+    rarity: "1 / 3600",
+    brand: "Nike",
+    date: "2025-01-08",
+    price: 1500,
+    source: "/release/deepblack4s.png",
+  };
+
+  const bobcatten = {
+    title: "Bobcat Tens",
+    colors: "White Orange Navy",
+    rarity: "1 / 1000",
+    brand: "Nike",
+    date: "2025-01-16",
+    price: 450,
+    source: "/release/bobcat10.png",
+  };
+
+  const cream = {
+    title: "Cream",
+    colors: "White",
+    rarity: "1 / 2000",
+    brand: "Nike",
+    date: "2025-01-22",
+    price: 1500,
+    source: "/release/cream7s.png",
   };
 
   return (
@@ -75,7 +114,11 @@ export default function Collections() {
 
         {/* content */}
         <div className="flex gap-10 flex-wrap justify-center p-6 max-w-[920px] m-auto">
-          <ShoeList />
+          <Card {...homeSac} />
+          <Card {...bobcathome} />
+          <Card {...deepblack} />
+          <Card {...bobcatten} />
+          <Card {...cream} />
         </div>
         <Footer />
       </div>
