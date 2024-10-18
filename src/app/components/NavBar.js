@@ -19,7 +19,7 @@ export default function NavBar() {
 
   return (
     <>
-      <nav className="bg-[#DCE2F9] flex justify-between items-center px-5 border col-span-12 font-mono">
+      <nav className="bg-[#d7defb] flex justify-between items-center px-5 border col-span-12 font-mono">
         <a href="/" className="flex justify-center items-center">
           <Image
             src="/logo.png"
