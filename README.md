@@ -233,3 +233,22 @@ Edits:
 Edits:
 
 Sorry attempt to update the cards for the calendar page. Will be complete next session.
+
+---
+
+#### 10 18
+
+Goals::
+
+0. calibrate -> what is really important? how do i get to the next level with this project?
+1. Complete more front end
+
+Edits::
+
+0. Fresher Home Page -> More Variance and Better Continuity
+1. Starting on the Cards for Calendar page
+
+### TODO:
+
+0. Finish Cards
+1. Add more Shoes/needs a cms
