@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 export default function Card({
+  id,
   source,
   title,
   colors,

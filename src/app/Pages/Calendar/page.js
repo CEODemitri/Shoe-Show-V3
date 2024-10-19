@@ -3,74 +3,10 @@ import CountdownTimer from "@/app/components/CountdownTimer";
 import Image from "next/image";
 import Footer from "@/app/components/Footer";
 import Card from "@/app/components/Card";
+import { shoes } from "@/app/components/Data";
+import Link from "next/link";
 
 export default function Collections() {
-  const homeSac = {
-    title: "Sac Mentos",
-    colors: "White Laser-Purple",
-    rarity: "1 / 400",
-    brand: "Nike",
-    sillo: "Jordan Retro 3",
-    date: "2025-01-01",
-    price: 1500,
-    source: "/release/sacremento3home.png",
-  };
-
-  const bobcathome = {
-    title: "Bobcats",
-    colors: "White Orange Navy",
-    rarity: "1 / 6000",
-    brand: "Nike",
-    sillo: "Jordan Retro 3",
-    date: "2025-01-01",
-    price: 450,
-    source: "/release/bobcat3home.png",
-  };
-
-  const deepblack = {
-    title: "Deep Black",
-    colors: "White Black",
-    rarity: "1 / 3600",
-    brand: "Nike",
-    sillo: "Jordan Retro 4",
-    date: "2025-01-08",
-    price: 1500,
-    source: "/release/deepblack4s.png",
-  };
-
-  const bobcatten = {
-    title: "Bobcat Tens",
-    colors: "White Orange Navy",
-    rarity: "1 / 1000",
-    brand: "Nike",
-    sillo: "Jordan Retro 11",
-    date: "2025-01-16",
-    price: 450,
-    source: "/release/bobcat10.png",
-  };
-
-  const cream = {
-    title: "Cream",
-    colors: "White",
-    rarity: "1 / 2000",
-    brand: "Nike",
-    sillo: "Jordan Retro 7",
-    date: "2025-01-22",
-    price: 1500,
-    source: "/release/cream7s.png",
-  };
-
-  const gtown = {
-    title: "Georgetown",
-    colors: "White",
-    rarity: "1 / 3000",
-    brand: "Nike",
-    sillo: "Jordan Retro 8",
-    date: "2025-01-29",
-    price: 2500,
-    source: "/release/georgetown8s.png",
-  };
-
   return (
     <main>
       <div className="min-h-[92vh] flex flex-col gap-3 m-2 font-mono text-[#2c2b3b] bg-[#EEF1FC] rounded-md">
@@ -104,7 +40,7 @@ export default function Collections() {
                   <h1 className="text-xl">Crazy Love 8&apos;s</h1>
                   <h2 className="text-xs">Jordan Retro 8</h2>
                   <h3>$260</h3>
-                  <h1 className="text-sm rounded-l-sm">October 4</h1>
+                  <h1 className="text-sm rounded-l-sm">November 10</h1>
                 </div>
               </div>
             </section>
@@ -119,7 +55,7 @@ export default function Collections() {
         <div className="bg-[url(/hero_imgs/collage.png)] h-24 flex items-end">
           <section className="bg-[#EEF1FC] px-4">
             <h1 className="text-xl md:text-2xl pt-2 rounded-tr-md">
-              August 2024 - 2025
+              November 2024 - 2025
             </h1>
             <p className="text-sm">Premium Release Calendar</p>
           </section>
@@ -130,12 +66,23 @@ export default function Collections() {
 
         {/* content */}
         <div className="flex gap-10 flex-wrap justify-center p-6 max-w-[920px] m-auto">
-          <Card {...homeSac} />
-          <Card {...bobcathome} />
-          <Card {...deepblack} />
-          <Card {...bobcatten} />
-          <Card {...cream} />
-          <Card {...gtown} />
+          {shoes.map((shoe) => (
+            <div key={shoe.id}>
+              <Link href={`../detail/${shoe.id}`}>
+                <Card
+                  key={shoe.id}
+                  source={shoe.source}
+                  title={shoe.title}
+                  colors={shoe.colors}
+                  brand={shoe.brand}
+                  rarity={shoe.rarity}
+                  sillo={shoe.sillo}
+                  date={shoe.date}
+                  price={shoe.price}
+                />
+              </Link>
+            </div>
+          ))}
         </div>
         <Footer />
       </div>
