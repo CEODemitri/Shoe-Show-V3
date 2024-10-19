@@ -6,6 +6,7 @@ export default function Card({
   colors,
   brand,
   rarity,
+  sillo,
   date,
   price,
 }) {
@@ -25,16 +26,18 @@ export default function Card({
           <h1 className="text-lg uppercase">{title}</h1>
           <h2 className="text-[8px] mb-4">{colors}</h2>
 
-          <div className="text-xs">
+          <div className="text-xs w-1/2">
             <p>{rarity}</p>
             <p>{brand}</p>
-            <h3 className="mt-4 bg-[#2C2B3C] text-[#a4a0de] text-xl w-fit px-4 rounded-md">
-              <span className="text-sm">$</span>
-              {price}
-            </h3>
+            <p>{sillo}</p>
           </div>
 
-          <p className="font-bold absolute left-full top-full bg-slate-500">
+          <h3 className="mt-4 bg-[#2C2B3C] text-[#a4a0de] text-xl w-fit px-4 rounded-md">
+            <span className="text-sm">$</span>
+            {price}
+          </h3>
+
+          <p className="font-bold absolute left-56 bg-slate-400 vertical z-[1000]">
             {date}
           </p>
         </section>

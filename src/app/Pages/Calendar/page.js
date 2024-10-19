@@ -10,6 +10,7 @@ export default function Collections() {
     colors: "White Laser-Purple",
     rarity: "1 / 400",
     brand: "Nike",
+    sillo: "Jordan Retro 3",
     date: "2025-01-01",
     price: 1500,
     source: "/release/sacremento3home.png",
@@ -20,6 +21,7 @@ export default function Collections() {
     colors: "White Orange Navy",
     rarity: "1 / 6000",
     brand: "Nike",
+    sillo: "Jordan Retro 3",
     date: "2025-01-01",
     price: 450,
     source: "/release/bobcat3home.png",
@@ -30,6 +32,7 @@ export default function Collections() {
     colors: "White Black",
     rarity: "1 / 3600",
     brand: "Nike",
+    sillo: "Jordan Retro 4",
     date: "2025-01-08",
     price: 1500,
     source: "/release/deepblack4s.png",
@@ -40,6 +43,7 @@ export default function Collections() {
     colors: "White Orange Navy",
     rarity: "1 / 1000",
     brand: "Nike",
+    sillo: "Jordan Retro 11",
     date: "2025-01-16",
     price: 450,
     source: "/release/bobcat10.png",
@@ -50,9 +54,21 @@ export default function Collections() {
     colors: "White",
     rarity: "1 / 2000",
     brand: "Nike",
+    sillo: "Jordan Retro 7",
     date: "2025-01-22",
     price: 1500,
     source: "/release/cream7s.png",
+  };
+
+  const gtown = {
+    title: "Georgetown",
+    colors: "White",
+    rarity: "1 / 3000",
+    brand: "Nike",
+    sillo: "Jordan Retro 8",
+    date: "2025-01-29",
+    price: 2500,
+    source: "/release/georgetown8s.png",
   };
 
   return (
@@ -119,6 +135,7 @@ export default function Collections() {
           <Card {...deepblack} />
           <Card {...bobcatten} />
           <Card {...cream} />
+          <Card {...gtown} />
         </div>
         <Footer />
       </div>
