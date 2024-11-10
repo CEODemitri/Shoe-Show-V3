@@ -1,3 +1,6 @@
+
+<img width="1306" alt="shoe3" src="https://github.com/user-attachments/assets/e10c38a5-cd65-474b-8e35-8a9a410e1764">
+
 # Silly Me
 
 Version 3 after a failed ruby/rails deploy attempt, and one vanilla js.
