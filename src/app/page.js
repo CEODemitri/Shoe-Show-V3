@@ -9,7 +9,7 @@ export default function Home() {
     <main>
       <div className="md:h-[92vh] grid md:grid-cols-12 grid-rows-10 gap-3 my-2 md:m-2 font-mono">
         {/* hero */}
-        <article className="md:col-span-6 row-span-3 md:row-span-10 border min-h-[1/4] bg-[#EEF1FC] rounded-md">
+        <article className="md:col-span-6 row-span-3 md:row-span-10 border min-h-[1/4] bg-[#EEF1FC] rounded-md hover:shadow-2xl">
           <div className="h-full flex flex-col justify-between">
             <article className="py-8 px-5 ">
               <span className="block text-sm text-neutral-600 subtext">
@@ -59,7 +59,7 @@ export default function Home() {
         </article>
 
         {/* blog */}
-        <article className="md:col-span-6 md:col-start-7 row-span-2 md:row-span-5 relative rounded-md py-2 md:py-8 px-5">
+        <article className="md:col-span-6 md:col-start-7 row-span-2 md:row-span-5 relative rounded-md py-2 md:py-8 px-5 hover:shadow-2xl">
           <div
             className="absolute inset-0 bg-cover bg-center opacity-65 hover:opacity-80 rounded-md"
             style={{ backgroundImage: `url('/hero_imgs/showroom_3s.jpeg')` }}
@@ -75,7 +75,7 @@ export default function Home() {
         </article>
 
         {/* accesories */}
-        <article className="md:col-span-3 md:col-start-7 row-span-2 md:row-start-6 md:row-span-5 min-h-[100px] bg-[#B76D68] rounded-md flex flex-col justify-between py-2 md:py-8 px-5">
+        <article className="md:col-span-3 md:col-start-7 row-span-2 md:row-start-6 md:row-span-5 min-h-[100px] bg-[#B76D68] rounded-md flex flex-col justify-between py-2 md:py-8 px-5 hover:shadow-2xl">
           <section className="flex justify-between">
             <span className="block text-sm text-neutral-200 subtext">
               Look Easy
@@ -90,7 +90,7 @@ export default function Home() {
         </article>
 
         {/* socks */}
-        <article className="md:col-span-3 md:col-start-10 row-span-2 md:row-start-6 md:row-span-3 min-h-[100px] bg-[#EEF1FC] px-5 special flex flex-col justify-between py-4 md:py-8 rounded-md">
+        <article className="md:col-span-3 md:col-start-10 row-span-2 md:row-start-6 md:row-span-3 min-h-[100px] bg-[#EEF1FC] px-5 special flex flex-col justify-between py-4 md:py-8 rounded-md hover:shadow-2xl">
           <section className="flex justify-between">
             <span className="block text-sm text-neutral-400 subtext">
               Need for Speed
@@ -103,7 +103,7 @@ export default function Home() {
         </article>
 
         {/* about us */}
-        <article className="md:col-span-3 md:col-start-10 md:row-start-9 row-span-2 min-h-[100px] bg-[#DCE3F9] px-5 rounded-md flex flex-col justify-between py-2 md:py-8">
+        <article className="md:col-span-3 md:col-start-10 md:row-start-9 row-span-2 min-h-[100px] bg-[#DCE3F9] px-5 rounded-md flex flex-col justify-between py-2 md:py-8 hover:shadow-2xl">
           <section className="flex justify-between">
             <span className="block text-sm text-neutral-500 subtext">
               Bigger Hearts
