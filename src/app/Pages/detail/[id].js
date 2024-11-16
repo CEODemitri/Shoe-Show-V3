@@ -1,6 +1,6 @@
 // Pages/detail/[id].js
 import Image from "next/image";
-import { shoes } from "../../components/Data";
+import { shoes } from "@/app/components/Data";
 
 /**
  * This function generates the list of paths for statically generated pages.

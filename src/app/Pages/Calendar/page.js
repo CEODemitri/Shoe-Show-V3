@@ -68,7 +68,7 @@ export default function Collections() {
         <div className="flex gap-10 flex-wrap justify-center p-6 max-w-[920px] m-auto">
           {shoes.map((shoe) => (
             <div key={shoe.id}>
-              <Link href={`../detail/${shoe.id}`}>
+              <Link href={`../Calendar/detail/${shoe.id}`}>
                 <Card
                   key={shoe.id}
                   source={shoe.source}

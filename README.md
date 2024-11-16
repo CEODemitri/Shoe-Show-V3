@@ -1,4 +1,3 @@
-
 <img width="1306" alt="shoe3" src="https://github.com/user-attachments/assets/e10c38a5-cd65-474b-8e35-8a9a410e1764">
 
 # Silly Me
@@ -255,3 +254,13 @@ Edits::
 
 0. Finish Cards
 1. Add more Shoes/needs a cms
+
+## Refresher
+
+how to amplify this project? how can i make this professional and more in tune with my skills?
+
+Home:
+Soft animations.
+Better Nav Bar.
+Smoother hover on section/page cards.
+refine design palette.

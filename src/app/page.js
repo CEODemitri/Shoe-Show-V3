@@ -17,11 +17,11 @@ export default function Home() {
               </span>
               <section className="flex flex-col gap-4">
                 <h1 className="text-2xl lg:text-4xl mt-3 md:w-[15ch] font-semibold text-[#2C2B3C]">
-                  Premium{" "}
+                  Flyer{" "}
                   <span className="text-white bg-red-300 px-2">Kicks</span>.
                 </h1>
-                <h2 className="text-2xl md:text-3xl text-[#2C2B3C]">
-                  See our Collection
+                <h2 className="text-xl md:text-2xl text-[#2C2B3C]">
+                  Add new heaters to your Collection
                   <span className="text-red-300 px-1 inline-block">.</span>
                 </h2>
               </section>
