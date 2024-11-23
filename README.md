@@ -33,3 +33,8 @@ I recreated this site for the third time because I have a vision in my head of w
 4. FontSource
 5. GreenSock (GSAP)
 6. React Icons
+
+todo :: delete after every session
+
+0.  complete charity/page comment in 2nd div to complete header
+1.  complete navbar comment, hamburger menu

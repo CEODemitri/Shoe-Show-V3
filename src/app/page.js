@@ -7,7 +7,7 @@ import { FaSquareArrowUpRight } from "react-icons/fa6";
 export default function Home() {
   return (
     <main>
-      <div className="md:h-[92vh] grid md:grid-cols-12 grid-rows-10 gap-3 my-2 md:m-2 font-mono">
+      <div className="md:h-[92vh] grid md:grid-cols-12 grid-rows-10 gap-3 m-2 font-mono">
         {/* hero */}
         <article className="md:col-span-6 row-span-3 md:row-span-10 border min-h-[1/4] bg-[#EEF1FC] rounded-md hover:shadow-2xl">
           <div className="h-full flex flex-col justify-between">

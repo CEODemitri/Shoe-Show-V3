@@ -19,7 +19,7 @@ export default function NavBar() {
 
   return (
     <>
-      <nav className="bg-[#d7defb] flex justify-between items-center px-5 border col-span-12 font-mono">
+      <nav className="bg-[#d7defb] flex justify-between items-center px-2 border col-span-12 font-mono overflow-hidden">
         <a href="/" className="flex justify-center items-center">
           <Image
             src="/logo.png"
@@ -44,6 +44,7 @@ export default function NavBar() {
             ))}
           </div>
 
+          {/* on press, open hamburger menu */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -60,7 +61,7 @@ export default function NavBar() {
             href="#"
             className="bg-[#F9C80E] px-6 py-1 rounded-md text-[#2C2B3C] title drop-shadow-sm"
           >
-            Stories
+            Sign In
           </a>
         </section>
       </nav>
