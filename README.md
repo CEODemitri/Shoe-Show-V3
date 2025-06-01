@@ -1,3 +1,14 @@
+# the new season begins
+## version 4
+instead of starting from scratch, a perfect time to practice my refactoring an old code base and making valuable upgrades.
+
+### sprint 1
+- better copy
+- design system and page
+- why do i have the pages in a pages folder?
+
+
+---
 <img width="1306" alt="shoe3" src="https://github.com/user-attachments/assets/e10c38a5-cd65-474b-8e35-8a9a410e1764">
 
 # Silly Me
