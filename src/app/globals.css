@@ -17,11 +17,17 @@
 } */
 
 h1, h2 {
-  font-family: 'Rammetto One', system-ui;
+  font-family: 'Golos Text Variable', sans-serif;
+  font-weight: 600;
 }
 
-.test {
-  font-family: 'Nunito Variable', sans-serif;
+body {
+  font-family: 'Afacad Variable', sans-serif;
+}
+
+.with-stroke {
+  color: #F5F5F5;
+  -webkit-text-stroke: 1.5px #00000080;
 }
 
 .special:hover {

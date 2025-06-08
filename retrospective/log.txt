@@ -1,0 +1,312 @@
+commit 8e9bbb0a4d2db75d4689b3c1028d80b0b060a9f7
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Fri Jun 6 06:45:45 2025 -0500
+
+    version four branch created\
+    Starting from a new branch with fresh slate. readme updated and retrospective folder added with logs.
+
+commit 06e4da917ed4c63f9e332e097ed3909c37f84bb5
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sat May 31 19:12:40 2025 -0500
+
+    season 4 start; refactoring ui n nextjs app
+
+commit c862cbee0e9d3c184890ab06b51366153db3417b
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Fri Nov 22 22:34:26 2024 -0600
+
+    charity page header start, freestyle.
+
+commit 3fec512227c35681f89e0ae487993af317c938d4
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sat Nov 16 07:30:13 2024 -0600
+
+    cleanse readme, cut the clutter now can focus and drive
+
+commit 68fdef19912ab59ca5c67a379757f17c0c172561
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Fri Nov 15 23:16:29 2024 -0600
+
+    quick attempt to get detail/[id] working. may switch to popover?
+
+commit 0f922404a0d9fe44e53db50d1dddca70aec2ea46
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Thu Nov 14 17:05:00 2024 -0600
+
+    adds small shadow to each section on hover
+
+commit 72bdd8cfc23f9618809c2dfa2ef8f8764d8597ca
+Author: CEODemitri <126187234+CEODemitri@users.noreply.github.com>
+Date:   Sun Nov 10 08:02:17 2024 -0600
+
+    Update README.md
+
+commit 1aceb6dbddde5cd0473a6ee3302d3b4265b35aef
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sat Oct 19 10:26:51 2024 -0500
+
+    working on adding dynamic routes to finish the calendar page structure
+
+commit 6c1776d529f85365721bc894c757548208883c77
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sat Oct 19 00:42:42 2024 -0500
+
+    new field for shoe card
+
+commit 86a95155f0252a26de6a3b4e5b4c3f6c9ac2f00a
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Fri Oct 18 23:46:44 2024 -0500
+
+    i need to get better
+
+commit 9dfa5b0c0db4088216e824b941371761d8955067
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Fri Oct 18 11:22:17 2024 -0500
+
+    updates footer and changes nav bar to be abit darker
+
+commit 8e670884227cd4d86c59d0aecaaa9552d703524f
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Tue Oct 8 06:31:43 2024 -0500
+
+    some cards added manually
+
+commit 840d2fbee718bf088b5517c14c5b299c2db661bb
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Mon Oct 7 23:18:30 2024 -0500
+
+    sorry attempt
+
+commit 4aa7df79e9c268c4ccded90e3ff0047a1c390caa
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sun Sep 1 21:32:00 2024 -0500
+
+    new db using json file
+
+commit 3451a1bfa8d3700f61f2172641d66f60af3570ce
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Thu Aug 29 22:59:22 2024 -0500
+
+    fumbling
+
+commit b18870a81da1b0592acffb161d88f0e1a2b3268f
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Tue Aug 27 22:38:03 2024 -0500
+
+    another cold day. removing appwrite for sqlite
+
+commit f94be87fa9621f98368d09d724bb6a8e8bd8a722
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Wed Aug 21 23:14:12 2024 -0500
+
+    release page ui enhance
+
+commit 69de66314cfc502dc48fe144d267cbc874005ce4
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Wed Aug 21 23:12:06 2024 -0500
+
+    release page ui enhance
+
+commit 4eb459b09c5dec6c9c75832147d3a789e972fe89
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Fri Aug 9 06:29:34 2024 -0500
+
+    working api on build?
+
+commit 10a2c2a85f40f515d0039b9b9d351c84c45aeffe
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Fri Aug 9 06:25:38 2024 -0500
+
+    working api on build?
+
+commit bb62c81432b2eb0a4f1fd775621afe52e6a923aa
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Fri Aug 9 06:21:03 2024 -0500
+
+    working api on build?
+
+commit ed9fd864082b33e8ef664752d5a65e5d85e324b8
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sat Jul 20 23:23:20 2024 -0500
+
+    calendar page near completion. filling in card info from db
+
+commit 299caace661831f5a354875578c270e5cb8eb210
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sat Jul 20 22:51:51 2024 -0500
+
+    calendar page near completion. filling in card info from db
+
+commit 6ff2f62c783f6619355823e5f0b7092996215d2c
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sat Jul 20 09:34:48 2024 -0500
+
+    calendar page newar completion. filling in card info from db
+
+commit 08b8bde23348d3ef30d4533c4b4bc948e9e766d2
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sat Jul 20 01:23:54 2024 -0500
+
+    loading from api
+
+commit 27be295e2afc03416f2bede439ee8e518d8d19de
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sun Jul 7 00:15:18 2024 -0500
+
+    3hr session bse of whole calendar page complete. working card component
+
+commit 1da4af1c7fa03becd5d6f54558ede13544dd33f9
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sun Jul 7 00:08:17 2024 -0500
+
+    3hr session bse of whole calendar page complete. working card component
+
+commit 648c7540c448642fac592db1dd57914857570df9
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sat Jul 6 10:02:18 2024 -0500
+
+    3hr session bse of whole calendar page complete. working card component
+
+commit af4dbe9434f72c5318df5cb9d72878bfa07138e4
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sat Jul 6 07:23:00 2024 -0500
+
+    fix compile error?
+
+commit d69f30bfaa8e9d3331e34f59981d0822f9e58cdc
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sat Jul 6 07:08:31 2024 -0500
+
+    fix compile error?
+
+commit 837681ce2c1937743b823db9cdc15d3cd86cf489
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Fri Jul 5 07:58:36 2024 -0500
+
+    hero section of calendar page is complete. add some styles and then move on to the next section !!
+
+commit 6782c3d2c51dce01aec79649f8d57b03eea0b4a5
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Fri Jul 5 00:09:51 2024 -0500
+
+    blog section of hero base complete. working on release section
+
+commit 5c5c26d0b955882c656b4898bfc6894f65394dfd
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Wed Jul 3 22:16:12 2024 -0500
+
+    1/2 hero complete
+
+commit 1d3f602c1725c651729a287229dd6e16a360fdd6
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sun Jun 30 17:48:37 2024 -0500
+
+    fixed hero responsivness
+
+commit c76b666252e354613ffa5479b2fc04ef961d9f8e
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sun Jun 30 17:42:57 2024 -0500
+
+    fixed hero responsivness
+
+commit 3cced5e7330aefc4a318d363650dc216888bb93c
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sun Jun 30 14:40:45 2024 -0500
+
+    slow motion but working with calendar page
+
+commit b2f863ec028c4075e8d83a135264e49cd93460c5
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Tue Jun 25 07:34:39 2024 -0500
+
+    calendar page consruction and new info card component
+
+commit 47c0ef9763f5c4ca670fc930d8407787cc42512b
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Mon Jun 24 23:18:59 2024 -0500
+
+    small responsiveness in details on homepage update
+
+commit d172c67cb26ffdc08decede8a415e23bacf6b2ce
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sat Jun 22 09:32:41 2024 -0500
+
+    install gsap and react icons. use map() for links in NavBar component. Add calendar Icon to button. replaced nunito with generic mono font for body text. Overall, enhancing the UI for a better User Experience.
+
+commit 6c7eaf0bf8b91bf89ca82d4ebc80b1ebc5768672
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Fri Jun 21 23:42:06 2024 -0500
+
+    home refractoring, fixing some sizing and structure.
+
+commit cb566dfc2feb8027ed4e4c0c0cd3e991a8aefc9b
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Thu Jun 20 22:57:21 2024 -0500
+
+    new font for body and other lesser text. mobile view looks moree like i intended as I destroyed the mobile and media query with tailwind. less thougthful and more brute force for now. glad to have the base for the Home Pae 89% complete. Small edits here and there plus links and animations and consider Home Complete
+
+commit d67fc6bc11ff8a086ceabd548fe8e4cb0d8ddbc6
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Thu Jun 20 20:54:36 2024 -0500
+
+    slight enhance to mobile responsiveness and view. update to tools
+
+commit 9d136003d3652e6035a1aa4c1b56323db50cb6a4
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Wed Jun 19 23:54:21 2024 -0500
+
+    New Goals, Blank Pages for Links, Home Refractoring. complete Update in README
+
+commit e5aa14e893e8c8cb97aa93ff110aa3cf79f215c9
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sun May 19 09:45:18 2024 -0500
+
+    added h1 font
+
+commit 031e455f8c8920898aa1ce4e119d55c3f761d902
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sat May 18 19:05:29 2024 -0500
+
+    added socks background on hover
+
+commit 49f11fe6841c9405ece8f82b781dc3503cfe6109
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sat May 18 11:10:53 2024 -0500
+
+    adding navbar to layout. tried to work on the hero section a bit
+
+commit 3447641b1c8c0d8cfa7d56e9d5443a50f2ea454f
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sat May 18 09:40:55 2024 -0500
+
+    adding navbar to layout. tried to work on the hero section a bit
+
+commit 058aa960a68ed4097e2636ac1546272e14749a63
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sat May 18 09:37:10 2024 -0500
+
+    adding navbar to layout. tried to work on the hero section a bit
+
+commit 608a1366627f675486635eea5373f26d19e1af56
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Sat May 18 09:15:39 2024 -0500
+
+    adding navbar to layout. tried to work on the hero section a bit
+
+commit 5b858ab2d4578860d7ac558f72ffe14597b65685
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Wed May 15 07:39:59 2024 -0500
+
+    add images and commented nav bar component
+
+commit 36f0e7d80f8ee8e1c5cd42ac3cd5f5ae2a7e224a
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Tue May 14 23:12:56 2024 -0500
+
+    first commit
+
+commit 6d47cec55f1faf2a6735231c8474d1ff1367c5a3
+Author: ceoDemitri <demichole@gmail.com>
+Date:   Tue May 14 18:59:29 2024 -0500
+
+    Initial commit from Create Next App

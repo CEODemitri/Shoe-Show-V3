@@ -1,6 +1,9 @@
 import "./globals.css";
 import NavBar from "./components/NavBar";
-import "@fontsource/rammetto-one";
+// Supports weights 400-700
+import '@fontsource-variable/afacad';
+// Supports weights 400-900
+import '@fontsource-variable/golos-text';
 
 export const metadata = {
   title: "Shoe Show",
@@ -10,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className="bg-[#E5E7EB]">
         <NavBar />
         {children}
       </body>
