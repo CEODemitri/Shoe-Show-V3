@@ -6,14 +6,14 @@ import {FaSquareArrowUpRight} from "react-icons/fa6";
 
 export default function Home() {
     return (
-        <main className="h-screen grid grid-cols-12 grid-rows-12">
+        <main className="h-screen grid grid-cols-12 grid-rows-12 overflow-hidden gap-2 mx-2">
             {/* hero section */}
             <section className="col-span-full row-span-6 bg-[#FEFCF3] px-4 grid grid-cols-subgrid grid-rows-subgrid">
                 <article className="text-[#4050A9] mt-4 col-start-1 col-span-5 row-span-full">
                     <p>Collect and Connect</p>
-                    <h1 className="text-7xl tracking-wide text-justify">Lace up and plug in — your trusted
+                    <h1 className="text-7xl tracking-[0.02em] text-justify leading-tight">Lace up and plug in — your trusted
                         <span
-                        className="text-[#A6AEDD] relative ml-8 z-10">pass <div className="w-48 h-16 bg-[#252D60] absolute rounded-lg skew-x-12 top-6 right-4 -z-10"></div></span> to the
+                        className="text-[#A6AEDD] relative ml-8 z-10">pass <div className="w-48 h-16 bg-[#252D60] absolute rounded-lg skew-x-12 top-6 right-5 -z-10"></div></span> to the
                         <svg className="inline mx-7" width="56" height="56" viewBox="0 0 68 68" fill="none"
                              xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -23,7 +23,7 @@ export default function Home() {
                         <span className="text-white with-stroke relative z-10">sneaker <div className="w-60 h-1 bg-[#252D60] absolute rounded-lg -skew-y-3 -bottom-1 right-4 -z-10"></div></span> world .
                     </h1>
                 </article>
-                <article className="col-start-7 col-span-full row-start-1 flex flex-col gap-12">
+                <article className="col-start-7 col-span-full row-start-1 flex flex-col gap-12 mt-2">
                     <div className="flex gap-16 mt-12">
                         <p className="w-3/5 text-justify tracking-wide text-xl">From heat to hype we have your front row to
                             every release. Powered by passion begin to end, never miss a drop again. More Than a Shoe
@@ -64,7 +64,11 @@ export default function Home() {
             </section>
 
             {/* links */}
-            <section></section>
+            <section className="col-span-5 row-span-4 bg-amber-200"></section>
+            <section className="col-start-6 col-end-13 row-span-2 bg-amber-200"></section>
+            <section className="col-start-6 col-end-13 row-span-2 bg-amber-200"></section>
+
+            <footer className="col-span-12 row-span-1 bg-amber-300">Thank You</footer>
         </main>
     );
 }
